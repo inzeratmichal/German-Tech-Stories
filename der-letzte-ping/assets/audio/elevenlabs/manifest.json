@@ -1,0 +1,182 @@
+[
+  {
+    "chapter": 1,
+    "file": "assets/audio/elevenlabs/kapitel-01.mp3",
+    "generation_id": "OqWDCllK7X8WX9ux8hiF",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "a37b5c861b8c38ce5528f12fe1f98c81efb932111068f2e5a1ce9b3561b49acd",
+    "bytes": 1460801,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3454,
+    "duration_seconds": 90.227
+  },
+  {
+    "chapter": 2,
+    "file": "assets/audio/elevenlabs/kapitel-02.mp3",
+    "generation_id": "M3CgrPcxYVrl195MnRSa",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "4de948afa962321a7792d84ab97bc81db197d499fc0e26465078ae4bba098569",
+    "bytes": 1560693,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3693,
+    "duration_seconds": 96.47
+  },
+  {
+    "chapter": 3,
+    "file": "assets/audio/elevenlabs/kapitel-03.mp3",
+    "generation_id": "TG3sttc7YrlYuwhLQBJb",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "136727b1e372c92203ec3adc5df149c6e46b96e209a4a0e51f86780fee86001c",
+    "bytes": 1445336,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3417,
+    "duration_seconds": 89.26
+  },
+  {
+    "chapter": 4,
+    "file": "assets/audio/elevenlabs/kapitel-04.mp3",
+    "generation_id": "hKGZEdEFaluiBUVLmosh",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "c12d8e5a424459dc8ac822436208742022a7dbf7034e0334f7dea1c7279175fa",
+    "bytes": 1390165,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3285,
+    "duration_seconds": 85.812
+  },
+  {
+    "chapter": 5,
+    "file": "assets/audio/elevenlabs/kapitel-05.mp3",
+    "generation_id": "hdgNcpct1Jr68IG9kpcO",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "aa6f09ec681ec4ae150b2ff1b1cf9d8cf917b45cede129bf61726611876a2bf7",
+    "bytes": 1565708,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3705,
+    "duration_seconds": 96.784
+  },
+  {
+    "chapter": 6,
+    "file": "assets/audio/elevenlabs/kapitel-06.mp3",
+    "generation_id": "0deS5eRs23GDd5cQHuFA",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "9fe215846c91ef14293974c1112a80bec69f1ab49edaadf08203c81e0a622174",
+    "bytes": 1658077,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3926,
+    "duration_seconds": 102.557
+  },
+  {
+    "chapter": 7,
+    "file": "assets/audio/elevenlabs/kapitel-07.mp3",
+    "generation_id": "Kk97a2A7xINn2RYQEQL2",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "4f24ba4768f03971572b9d4b880c6447caad6fd1ea02bd7d81c6b3391fd117ee",
+    "bytes": 1552752,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3674,
+    "duration_seconds": 95.974
+  },
+  {
+    "chapter": 8,
+    "file": "assets/audio/elevenlabs/kapitel-08.mp3",
+    "generation_id": "i8mcbRRbZsqTbzp3eQt8",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "347f405b1ef9cbe5cec936f7d34a0ed2e0b5d9dd5a13bf5db19d517cfb8558c1",
+    "bytes": 1460801,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3454,
+    "duration_seconds": 90.227
+  },
+  {
+    "chapter": 9,
+    "file": "assets/audio/elevenlabs/kapitel-09.mp3",
+    "generation_id": "9ueEVEFmjh4TMYBhxuld",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "2c153666fbcf5832ac88fcf0e93cf0d7a37c06f5fb84ff164fb44cbdd282e7b9",
+    "bytes": 1528510,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3616,
+    "duration_seconds": 94.459
+  },
+  {
+    "chapter": 10,
+    "file": "assets/audio/elevenlabs/kapitel-10.mp3",
+    "generation_id": "CZsJnF1A8UcHSO5Nif2l",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "sha256": "c0aa0b8eb7de2c4d89fbfa86d651f2df4328503c326c7a5e24862f6fcb1139e6",
+    "bytes": 1511792,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "frames": 3576,
+    "duration_seconds": 93.414
+  }
+]

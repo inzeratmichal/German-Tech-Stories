@@ -6,6 +6,7 @@
   const answersButton = document.querySelector('#answers-button');
   const dialog = document.querySelector('#image-dialog');
   const audio = document.querySelector('#narration');
+  const audioBase = audio.dataset.audioBase || 'assets/audio';
   const tracks = [...document.querySelectorAll('.track')];
   const titles = tracks.map(b => b.children[1].textContent);
   let current = 0;
@@ -56,7 +57,7 @@
     if (index < 0 || index >= tracks.length) return;
     current = index;
     const speed = Number(document.querySelector('#speed').value);
-    audio.src = `assets/audio/kapitel-${String(index + 1).padStart(2, '0')}.mp3`;
+    audio.src = `${audioBase}/kapitel-${String(index + 1).padStart(2, '0')}.mp3`;
     audio.playbackRate = speed;
     document.querySelector('#track-title').textContent = `${index + 1} · ${titles[index]}`;
     document.querySelector('#audio-status').textContent = '';
