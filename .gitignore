@@ -3,5 +3,7 @@ dist/
 node_modules/
 *.log
 production/*/artwork/ch*.png
+production/*/artwork/ch*-scene-original.webp
+production/*/artwork/ch*-scene-repaired.webp
 production/*/artwork/cover-generated.png
 production/*/audio/chapter-*.mp3

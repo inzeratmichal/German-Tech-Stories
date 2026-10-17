@@ -10,5 +10,16 @@
     "user_confirmed": "2026-10-17",
     "policy": "Use this same voice and generation configuration for every future series recording. Do not substitute a voice, model or provider without an explicit user change. The convert API documents mp3_44100_128 as its default; verify the downloaded MP3 sample rate and bitrate.",
     "format_reference": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert"
+  },
+  "reader": {
+    "user_revision": "2026-10-17",
+    "paragraph_audio": true,
+    "retain_complete_story_audio": true,
+    "illustration_layout": "Inline story scenes between relevant paragraphs",
+    "labels": "Multiple German target words embedded directly in each finished image; no separate label fields",
+    "default_scenes_per_book": 5,
+    "target_words_per_scene": 4,
+    "distinct_target_words_per_book": 20,
+    "separate_woerter_im_bild_section": false
   }
 }

@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | in_progress | 2026-10-17 media and homepage checkpoint | — | — |
+| 01 | Die Nachricht um 03:17 | in_progress | 2026-10-17 reader revision checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -154,3 +154,11 @@ For each later checkpoint or completion, append a concise record containing the 
 5. If a required capability or asset is unavailable, preserve good work and record the specific blocker. Do not publish an incomplete book.
 6. After completing a book, update Next action to the next unfinished book in `books.md`. Start it only within the user's requested scope.
 7. When all 30 books are verified completed, set Next action to “Planned series complete.” Do not create Book 31 without direction.
+
+### 2026-10-17 — Book 01 reader revision checkpoint
+
+- **User changes implemented:** audio buttons under all 46 German paragraphs, including introduction. Reused existing Lola audio with word-timestamp ranges; no new paid speech. Complete final player retained.
+- **Illustrations:** five reviewed inline scenes, four embedded German labels each, twenty distinct words. Removed separate Wörter im Bild sections and HTML label fields. Generated five scenes and four targeted repairs; IDs/settings/hashes in inline-illustrations.json and run records. Earlier cards preserved.
+- **Future policy:** repository GERMAN_TECH_STORIES_GUIDE.md sections 6–8 and series-settings.json now specify integrated multi-word images and paragraph audio. Synced sources untouched.
+- **Checks:** all 46 seek controls, pause/resume, switching, keyboard activation, speed and paragraph boundary stop pass; full native playback retained. Six images load at 320/390/768/1280px without overflow; screenshots inspected. Native translations/no-JS reading remain functional. Revised 14-page German PDF rendered and visually inspected; English, answers and audio buttons hidden. Narration hash unchanged.
+- **Status/next:** unpublished preview updated at http://127.0.0.1:8765/books/01-die-nachricht-um-0317/ . Full human narration listening still outstanding because agent audio input is unsupported. Finish that review, repair only identified defects, then run guarded publication and verify live assets. No book completion claimed.

@@ -38,7 +38,9 @@
     "runtime_errors": 0,
     "visual_screenshots_inspected": [
       "390px hero",
-      "1280px hero"
+      "1280px hero",
+      "390px inline scene and paragraph controls",
+      "1280px inline scene"
     ],
     "limits": "Full natural audio delivery/pronunciation/join listening unavailable; remains open. Desktop 200% tested through page scaling and 640px reflow equivalent rather than a physical browser zoom setting.",
     "final_record": "final-browser-checks.json"
@@ -46,26 +48,30 @@
   "publication_gate": "All media files are now present. Release must still refuse while audio_listening_review is false. No publication attempted.",
   "cover_review": "Final 1024x1536 portrait artwork adapted from existing source and visually reviewed.",
   "live_verification": "Homepage root and index.html return HTTP 200; cover returns 200 with expected hash. Production plan returns 404. Homepage deployment run 39017661661 succeeded for commit f6f6f1500614c1bc3f9c76843923a673baca4bfb. Book itself remains unpublished, pending listening review.",
-  "final_art_review": "All 20 1024x768 cards inspected in chapter contact sheets; two inaccurate details repaired and inspected individually. German labels remain accessible HTML outside pixels; inflected vocabulary occurrences retained.",
+  "final_art_review": "Five actual inline scenes inspected individually. Four embedded German labels each, twenty distinct target words. Corrected clock, cooling plan, Ruth identity and times. Original twenty cards retained as archive. Mobile 390px and desktop 1280px screenshots inspected; image links open full resolution.",
   "audio_review": {
     "format": "MP3 44100 Hz / 128 kbps confirmed for test, five passages and final assembly",
     "duration_seconds": 1294.8114285714285,
     "transcription": "All five returned transcripts match normalized final passage scripts, title/introduction/headings included; no translations or study material in scripts.",
     "technical": "Browser decoded all passages; zero clipped samples; active RMS spread about 0.77 dB. Original speech frames preserved in assembly with ~1.04-second chapter pauses.",
     "player": "Native player loads full duration, play/seek works at beginning/all joins/end, speed selector changes actual rate to 1.25.",
-    "listening": "NOT performed. Tool explicitly reports audio input unsupported. Human final review required."
+    "listening": "NOT performed. Tool explicitly reports audio input unsupported. Human final review required.",
+    "paragraph_controls": "All 46 buttons seek to their assigned range; switching, keyboard play, pause/resume, 1.5x boundary stop, and return to full native player pass. Reuses unchanged Lola MP3; automated timing/playback checks do not establish listening quality."
   },
   "print": {
-    "pages": 18,
+    "pages": 14,
     "paper": "A4",
     "path": "output/pdf/die-nachricht-um-0317.pdf",
     "english_hidden": true,
     "answers_hidden": true,
-    "all_46_german_paragraphs_present": true,
-    "review": "Rendered all pages; contact-sheet layout inspected and representative story, continuation, vocabulary infographic and questions pages inspected at 1100px. No clipped content. Final 18-page edition uses 12pt/1.65 story text and separate chapter picture sections."
+    "paragraph_controls_hidden": true,
+    "review": "Rendered all 14 pages and inspected contact sheet. Five integrated scenes, cover, German story, vocabulary and questions; no separate picture sections. Approximate page target; fewer combined illustrations reduce length from prior edition."
   },
   "local_preview": {
     "url": "http://127.0.0.1:8765/books/01-die-nachricht-um-0317/",
-    "server": "Outside-sandbox local static preview; verified HTTP 200 with 21 images and full MP3 after sandboxed server proved unreachable."
-  }
+    "server": "Outside-sandbox preview remains running. Revised reader has six loaded images and 46 paragraph audio controls."
+  },
+  "paragraph_audio_review": true,
+  "user_reader_revision": "2026-10-17: paragraph audio and inline scenes with embedded multi-word German labels",
+  "source_audio_sha256": "0bfe96ff775203ec8392cea7f0410b05df9ed69894d3a3a88adf763c2df776c5"
 }

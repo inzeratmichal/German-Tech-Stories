@@ -13,7 +13,7 @@
       "width": 320,
       "route": "books/01-die-nachricht-um-0317/index.html",
       "horizontal_overflow": false,
-      "images": 21,
+      "images": 6,
       "failed_images": 0,
       "open_translations": 0,
       "answers_hidden": true
@@ -31,7 +31,7 @@
       "width": 390,
       "route": "books/01-die-nachricht-um-0317/index.html",
       "horizontal_overflow": false,
-      "images": 21,
+      "images": 6,
       "failed_images": 0,
       "open_translations": 0,
       "answers_hidden": true
@@ -49,7 +49,7 @@
       "width": 768,
       "route": "books/01-die-nachricht-um-0317/index.html",
       "horizontal_overflow": false,
-      "images": 21,
+      "images": 6,
       "failed_images": 0,
       "open_translations": 0,
       "answers_hidden": true
@@ -67,7 +67,7 @@
       "width": 1280,
       "route": "books/01-die-nachricht-um-0317/index.html",
       "horizontal_overflow": false,
-      "images": 21,
+      "images": 6,
       "failed_images": 0,
       "open_translations": 0,
       "answers_hidden": true
@@ -82,41 +82,285 @@
     "seek_checks": [
       {
         "target": 0,
-        "currentTime": 0.118351,
+        "currentTime": 0.110072,
         "paused": false,
         "error": null
       },
       {
         "target": 272,
-        "currentTime": 272.185803,
+        "currentTime": 272.171489,
         "paused": false,
         "error": null
       },
       {
         "target": 519,
-        "currentTime": 519.186229,
+        "currentTime": 519.204887,
         "paused": false,
         "error": null
       },
       {
         "target": 765,
-        "currentTime": 765.184821,
+        "currentTime": 765.167659,
         "paused": false,
         "error": null
       },
       {
         "target": 1031,
-        "currentTime": 1031.18017,
+        "currentTime": 1031.17324,
         "paused": false,
         "error": null
       },
       {
         "target": 1290,
-        "currentTime": 1290.208664,
+        "currentTime": 1290.204881,
         "paused": false,
         "error": null
       }
     ]
+  },
+  "paragraphs": {
+    "count": 46,
+    "inline_scenes": 5,
+    "detached_sections": 0,
+    "ranges": [
+      {
+        "index": 0,
+        "start": 1.38,
+        "time": 1.395552
+      },
+      {
+        "index": 1,
+        "start": 29.86,
+        "time": 29.87936
+      },
+      {
+        "index": 2,
+        "start": 57.3,
+        "time": 57.317772
+      },
+      {
+        "index": 3,
+        "start": 85.54,
+        "time": 85.558225
+      },
+      {
+        "index": 4,
+        "start": 114.26,
+        "time": 114.277687
+      },
+      {
+        "index": 5,
+        "start": 141.62,
+        "time": 141.633276
+      },
+      {
+        "index": 6,
+        "start": 166.1,
+        "time": 166.11556
+      },
+      {
+        "index": 7,
+        "start": 190.5,
+        "time": 190.519343
+      },
+      {
+        "index": 8,
+        "start": 220.34,
+        "time": 220.357898
+      },
+      {
+        "index": 9,
+        "start": 245.38,
+        "time": 245.399331
+      },
+      {
+        "index": 10,
+        "start": 276.636,
+        "time": 276.653169
+      },
+      {
+        "index": 11,
+        "start": 301.356,
+        "time": 301.368516
+      },
+      {
+        "index": 12,
+        "start": 327.196,
+        "time": 327.215655
+      },
+      {
+        "index": 13,
+        "start": 352.476,
+        "time": 352.491188
+      },
+      {
+        "index": 14,
+        "start": 380.236,
+        "time": 380.254284
+      },
+      {
+        "index": 15,
+        "start": 409.596,
+        "time": 409.609641
+      },
+      {
+        "index": 16,
+        "start": 439.196,
+        "time": 439.213415
+      },
+      {
+        "index": 17,
+        "start": 464.716,
+        "time": 464.73382
+      },
+      {
+        "index": 18,
+        "start": 491.196,
+        "time": 491.215867
+      },
+      {
+        "index": 19,
+        "start": 522.926,
+        "time": 522.944463
+      },
+      {
+        "index": 20,
+        "start": 547.486,
+        "time": 547.505061
+      },
+      {
+        "index": 21,
+        "start": 575.646,
+        "time": 575.663007
+      },
+      {
+        "index": 22,
+        "start": 605.166,
+        "time": 605.182015
+      },
+      {
+        "index": 23,
+        "start": 633.246,
+        "time": 633.262282
+      },
+      {
+        "index": 24,
+        "start": 659.326,
+        "time": 659.343945
+      },
+      {
+        "index": 25,
+        "start": 685.006,
+        "time": 685.02454
+      },
+      {
+        "index": 26,
+        "start": 709.086,
+        "time": 709.099865
+      },
+      {
+        "index": 27,
+        "start": 735.966,
+        "time": 735.983709
+      },
+      {
+        "index": 28,
+        "start": 769.692,
+        "time": 769.709772
+      },
+      {
+        "index": 29,
+        "start": 799.932,
+        "time": 799.952186
+      },
+      {
+        "index": 30,
+        "start": 830.492,
+        "time": 830.510825
+      },
+      {
+        "index": 31,
+        "start": 858.772,
+        "time": 858.790997
+      },
+      {
+        "index": 32,
+        "start": 887.132,
+        "time": 887.149508
+      },
+      {
+        "index": 33,
+        "start": 913.292,
+        "time": 913.304719
+      },
+      {
+        "index": 34,
+        "start": 941.372,
+        "time": 941.389144
+      },
+      {
+        "index": 35,
+        "start": 971.052,
+        "time": 971.067942
+      },
+      {
+        "index": 36,
+        "start": 1002.332,
+        "time": 1002.35094
+      },
+      {
+        "index": 37,
+        "start": 1034.621,
+        "time": 1034.638514
+      },
+      {
+        "index": 38,
+        "start": 1060.381,
+        "time": 1060.398935
+      },
+      {
+        "index": 39,
+        "start": 1090.301,
+        "time": 1090.320646
+      },
+      {
+        "index": 40,
+        "start": 1125.261,
+        "time": 1125.274956
+      },
+      {
+        "index": 41,
+        "start": 1155.661,
+        "time": 1155.676365
+      },
+      {
+        "index": 42,
+        "start": 1182.381,
+        "time": 1182.4002
+      },
+      {
+        "index": 43,
+        "start": 1208.381,
+        "time": 1208.398698
+      },
+      {
+        "index": 44,
+        "start": 1237.341,
+        "time": 1237.354185
+      },
+      {
+        "index": 45,
+        "start": 1264.461,
+        "time": 1264.481274
+      }
+    ],
+    "pause_resume": true,
+    "boundary": {
+      "time": 25.957275,
+      "paused": true,
+      "rate": 1.5
+    },
+    "native_full_story": true
   },
   "independent_translation": true,
   "answers_reveal": true,
@@ -127,7 +371,8 @@
   },
   "no_js": {
     "chapters": 5,
-    "images": 21,
+    "images": 6,
+    "paragraph_buttons_hidden": true,
     "native_toggle": true
   },
   "zoom_200": {
@@ -135,6 +380,7 @@
     "overflow": false
   },
   "print": {
+    "paragraph_buttons_hidden": true,
     "translations_hidden": true,
     "answers_hidden": true
   }

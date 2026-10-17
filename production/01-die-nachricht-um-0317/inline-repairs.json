@@ -1,0 +1,68 @@
+{
+  "jobs": [
+    {
+      "chapter": 1,
+      "prompt": "Precisely correct the connected illustration, keeping composition, Mira face, four exact German labels and their correct arrows. Replace the incorrect analog clock with a simple small digital wall clock displaying EXACTLY '03:19'. 'die Uhr' arrow ends at that clock. Enlarge all four German labels to approximately 90 px type on a 2048px-wide image, readable at phone width; text may occupy wider paper callout strips without covering faces. Keep exact spellings 'die Nachricht', 'die Uhr', 'der Blitz', 'zögern'. Do not add any labels. No other scene changes.",
+      "node_id": "Xy5nGtp21jhNUkdVEE4h",
+      "original_node_id": "DekVOIAyPRSjqpT5oXQ6"
+    },
+    {
+      "chapter": 2,
+      "prompt": "Precisely correct only the wall plan and label sizes in the connected corridor illustration. The drawing must show TWO SEPARATE cooling units with two branches that join one common intake duct in a Y shape. Neither cooling unit feeds into the other. Keep Mira holding door, Ruth silver braid and orange jacket, remote Deniz on screen, and the four existing correct German words. Enlarge exact labels 'der Flur', 'die Tür', 'der Plan', 'gemeinsam' to approximately 90px type on 2048px-wide image, with arrows to correct objects/people. Keep faces and scene. No new words or explanatory caption.",
+      "node_id": "9rsC47Ff5E61LoCCqrIS",
+      "original_node_id": "rkwdq6WEa0JaHmzxizj2"
+    },
+    {
+      "chapter": 3,
+      "prompt": "Correct the connected image, using the OTHER connected Ruth reference for her face: Ruth is a distinct 52-year-old field specialist, mature face with age lines and fully SILVER hair in one long braid, orange work jacket. Do NOT use Mira's young face or dark curls. Keep the smooth grey red-edged tarpaulin, gloved grip, scratched torch, bracket and four existing correct German labels. Enlarge all labels to roughly 90px type on 2048px width; 'die Taschenlampe' can use a broad strip across a lower corner without covering Ruth's face. Exact labels: 'die Taschenlampe', 'die Abdeckung', 'festhalten', 'vorsichtig'. No additional text.",
+      "node_id": "Y1m04UOpL25z8gQGBOPy",
+      "original_node_id": "7Hka7HPdTo9NUbdi0erN"
+    },
+    {
+      "chapter": 5,
+      "prompt": "Precisely correct the connected dawn discussion illustration, preserving all three adult faces and four exact German labels. The floating timing inset must display ONLY '03:17' on the left, '03:28' on the right, a message icon and one '?' underneath. Remove the incorrect 07:12 and 07:18. The report's temperature chart must be a simple unnumbered line declining then leveling out: NO numbers, no degree scales, no implication of cooling below zero. Remove the unrelated train timetable/blackboard writing at upper left, replace by plain wall. Enlarge the four exact labels 'der Bericht', 'der Zweifel', 'zugeben', 'erleichtert' to approximately 90px type on 2048px width. Arrows remain tied to report, uncertainty, admission gesture and relaxed shoulders respectively. No new labels.",
+      "node_id": "XMCtGzD5p3YgU9dSCo11",
+      "original_node_id": "NpY8j0auxiNb5aL6Ki84"
+    }
+  ],
+  "session_ids": [
+    "Ou4B20Kx4KxRiTp7S9sn",
+    "DHi33mJKsKTftmpQ21yf",
+    "q9aKecrFudj3dNTkKffF",
+    "NlAodsLWPRJCnbfglViW"
+  ],
+  "results": [
+    {
+      "success": true,
+      "node_id": "Xy5nGtp21jhNUkdVEE4h",
+      "session_id": "Ou4B20Kx4KxRiTp7S9sn",
+      "credit_costs": {
+        "ZgHFqPvU2nMVkjc1ayvn": 1583.980934745648
+      }
+    },
+    {
+      "success": true,
+      "node_id": "9rsC47Ff5E61LoCCqrIS",
+      "session_id": "DHi33mJKsKTftmpQ21yf",
+      "credit_costs": {
+        "rsLjqwr7AftBtfbjs7Ak": 1583.980934745648
+      }
+    },
+    {
+      "success": true,
+      "node_id": "Y1m04UOpL25z8gQGBOPy",
+      "session_id": "q9aKecrFudj3dNTkKffF",
+      "credit_costs": {
+        "FO3V64H0pFbSbj870Ryk": 1824.406075677709
+      }
+    },
+    {
+      "success": true,
+      "node_id": "XMCtGzD5p3YgU9dSCo11",
+      "session_id": "NlAodsLWPRJCnbfglViW",
+      "credit_costs": {
+        "qycQ7ZcHUa2lrLcu6r26": 1583.980934745648
+      }
+    }
+  ]
+}

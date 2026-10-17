@@ -1,0 +1,51 @@
+{
+  "session_ids": [
+    "nn5S3fLVWaTe9mvLc6oL",
+    "37SBAw2MexUX2X8ZjnNp",
+    "UkQ3RatNgD5pjBs1WP3B",
+    "F2JWcabqnaBCEB5yPNgO",
+    "lilarqZAX3k2aNsELT8e"
+  ],
+  "results": [
+    {
+      "success": true,
+      "node_id": "DekVOIAyPRSjqpT5oXQ6",
+      "session_id": "nn5S3fLVWaTe9mvLc6oL",
+      "credit_costs": {
+        "zFwZbMlcJDjbcShJFLY6": 1583.980934745648
+      }
+    },
+    {
+      "success": true,
+      "node_id": "rkwdq6WEa0JaHmzxizj2",
+      "session_id": "37SBAw2MexUX2X8ZjnNp",
+      "credit_costs": {
+        "VLAO80Ve6Iykt6PbHP3v": 1583.980934745648
+      }
+    },
+    {
+      "success": true,
+      "node_id": "7Hka7HPdTo9NUbdi0erN",
+      "session_id": "UkQ3RatNgD5pjBs1WP3B",
+      "credit_costs": {
+        "pvNlTL4tRiOl5ByTXEpK": 1583.980934745648
+      }
+    },
+    {
+      "success": true,
+      "node_id": "KCQv19nBHLQgqWZQ3hLR",
+      "session_id": "F2JWcabqnaBCEB5yPNgO",
+      "credit_costs": {
+        "pTOOxlX8Bqd32RZ9DbPo": 1583.980934745648
+      }
+    },
+    {
+      "success": true,
+      "node_id": "NpY8j0auxiNb5aL6Ki84",
+      "session_id": "lilarqZAX3k2aNsELT8e",
+      "credit_costs": {
+        "FhdbwzkgTudpurIkcHCs": 1583.980934745648
+      }
+    }
+  ]
+}

@@ -136,35 +136,23 @@ Nouns use their definite article; verbs use the infinitive. The final vocabulary
 
 Write three multiple-choice and two written-answer comprehension questions. Test events, motivations, and basic understanding; require no outside technical knowledge. Each multiple-choice item has one unambiguously correct choice and plausible alternatives. Reveal correct choices and concise German model answers only through “Antworten anzeigen”. Avoid ambiguous grading of written answers.
 
-## 6. Entertaining vocabulary infographics
+## 6. Illustrations inside the story
 
-Create 3–5 small vocabulary infographics after each chapter; default to four per chapter and exactly 20 distinct target entries overall. Each entry has its own infographic card. These are visual explanations connected to the chapter, not decorative screenshots, generic icons, or vocabulary text pasted onto unrelated pictures.
+User revision, 2026-10-17: illustrations should feel like part of the book, with multiple German words embedded in each picture. This supersedes the earlier separate chapter-end vocabulary card design.
 
-Combine cinematic science-fiction art with an explanatory visual device: a labeled cutaway, a highlighted object, a direction arrow, two contrasted situations, or a short action sequence. Use expressive characters and small moments of discovery or humor without turning adult material into children's worksheets. Every visual addition must help convey the target meaning.
-
-Examples of visual reasoning, not mandatory vocabulary:
-- **der Hinweis:** Mira notices a marked detail on a map; a restrained callout identifies the detail and connects it to her discovery.
-- **vermeiden:** two small panels show an approaching obstacle and the character choosing a clear alternative route.
-- **der Verdacht:** distinguish what Mira observes from what she suspects using a clear visual separation; do not present the suspicion as a proven fact.
-
-Use deep blue and muted teal for infrastructure, warm amber for human spaces, and restrained red for immediate warnings. Keep faces, clothing, objects, and locations consistent. Show cafés, streets, workshops, stations, homes, and archives alongside equipment rooms.
-
-Each card includes:
-1. One immediately identifiable target word used in the chapter.
-2. A clear scene or visual explanation that matches its contextual meaning.
-3. A sharp German label, including the definite article for nouns.
-4. At most one short B1 German context caption if it materially helps; give added prose captions their own hidden English translation. Primary labels do not need duplicate visible English.
-5. Meaningful alternative text, including relevant relationships conveyed by arrows or panel order.
-
-Keep labels and callouts in HTML/CSS or an accessible vector overlay where practical, so spelling can be corrected without regenerating artwork. Avoid labels buried in generated image pixels. Maintain numbered panel order where used. At phone size, cards must remain readable and gestures understandable; allow accessible enlargement for detailed images. A 2×2 chapter grid may collapse to one column.
-
-Generate source artwork at sufficient resolution for a card of roughly 280–360 CSS pixels, using a consistent landscape ratio such as 4:3. Export optimized WebP or another supported web image format; retain useful generation references. Avoid tiny labels and dense technical diagrams. Check both the image and its contextual meaning visually.
-
-Also create one spoiler-free cinematic cover per book, separate from the 20 vocabulary entries. Use a consistent 2:3 composition, character references, series identity, and readable HTML title treatment. Depict this book's distinctive setting or mystery without revealing its answer.
-
-Use an image-generation capability actually available in the task environment. The ElevenLabs configuration below is specifically for narration. Prompts, placeholders, broken links, and inaccurate imagery do not satisfy the artwork requirement.
+- Place each illustration between relevant story paragraphs, after its depicted clues or events have appeared. Do not collect pictures in a separate “Wörter im Bild” section.
+- Default to one immersive scene in each of five chapters, with four target vocabulary labels per scene, covering exactly 20 distinct entries overall. A scene may use a small visual inset or a short action sequence when needed for meaning; avoid detached card grids.
+- Render the German labels directly into the finished artwork, with correct noun articles, spelling, and meaningful arrows to objects or gestures. Do not display the same labels in a separate caption field. Provide descriptive alt text containing the vocabulary and relationships for accessibility.
+- Labels should be large and high contrast, readable on phones. Allow opening the full image for enlargement. Use a landscape composition, normally 3:2, at sufficient resolution for crisp text.
+- Combine cinematic adult story art with useful visual explanation. Keep faces, ages, hair, clothes, locations and physical actions consistent. Use the established deep blue/teal and warm amber palette. Avoid stray invented times, misleading equipment diagrams, and future-book spoilers.
+- Review every finished image and label visually. Repair specific defects while preserving good images and all prior paid assets. Keep original generations and identifiers as archive when a user asks for a redesign.
+- Keep the final “Wortschatz auf einen Blick” list of all 20 entries and English meanings. The inline pictures replace the separate illustrated category, not this compact reference list.
+- The separate spoiler-free 2:3 cover remains required.
 
 ## 7. ElevenLabs narration
+
+User revision, 2026-10-17: provide an audio-play option below every German story paragraph, including the introduction, while retaining the complete recording at the end. Reuse the existing Lola narration with verified paragraph boundaries when possible. Only one audio stream plays at a time; paragraph playback stops at its end, supports pause/resume, and respects playback speed. Keep controls accessible, hide them in print, and keep core reading usable without JavaScript. Do not regenerate narration merely to add these controls.
+
 
 Use the connected ElevenLabs plugin. The user has selected:
 
@@ -251,7 +239,7 @@ Default to one scrolling HTML page per book with stable chapter anchors. Keep ac
 1. **Toolbar:** library link, book identity, contents menu, and a jump to the audio section. Include a thin reading-progress indicator that does not cover text.
 2. **Cover:** generated artwork, series/book number, German title, a short hook/introduction with hidden English, B1/B2 label, and “Lesen”/“Anhören” links. Two columns on desktop, stacked on phones.
 3. **Contents:** links to all five chapters, vocabulary, questions, and audio. A compact menu may replace the full list on phones.
-4. **Story:** chapter number/title, optional clearly marked viewpoint, then paragraphs and their individual translation controls. Follow each chapter with its 3–5 vocabulary infographic cards under a consistent heading such as “Wörter im Bild”.
+4. **Story:** chapter number/title, optional clearly marked viewpoint, then paragraphs with independent English toggles and a German paragraph-play button. Insert the multi-word labelled scenes among the related paragraphs. No separate “Wörter im Bild” category.
 5. **Wortschatz auf einen Blick:** the 20 German entries and English meanings in a clean list or table; use two columns only where readable.
 6. **Fragen zum Text:** three radio-button multiple-choice groups and two labeled text areas, followed by “Antworten anzeigen”. No account or server submission is required. Do not mark reasonable written alternatives wrong automatically.
 7. **Die Geschichte hören:** one full-story MP3 player with play/pause, seeking, elapsed time/duration, and a labeled playback-speed selector, for example 0.75×, 1×, 1.25×, and 1.5×. No autoplay. Use the existing player's styling where appropriate.

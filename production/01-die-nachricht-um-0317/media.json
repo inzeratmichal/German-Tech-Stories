@@ -265,5 +265,111 @@
         "reviewed": true
       }
     ]
-  }
+  },
+  "inline_artwork": {
+    "user_revision": "2026-10-17: integrate images in narrative, multiple German words embedded in each image; replaces separate chapter-end vocabulary cards.",
+    "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
+    "jobs": [
+      {
+        "chapter": 1,
+        "after_paragraph": 6,
+        "words": [
+          "die Nachricht",
+          "die Uhr",
+          "der Blitz",
+          "zögern"
+        ],
+        "alt": "Mira zögert vor einem Anruf. Beschriftungen und Pfeile zeigen die Nachricht am Bildschirm, die Uhr, den Blitz vor dem Fenster und ihre angehaltene Hand.",
+        "scene": "Single coherent operations-room scene. Mira (exact face from reference, short dark curls, olive jacket, silver ear stud) sits at her desk, red notebook nearby, finger stopped hesitantly above a call button on a phone. Rain-streaked window behind shows one bright lightning flash and rail lights. A small message panel on her ordinary monitor; a clearly drawn simple wall clock. Four LARGE accurate German callout labels INSIDE the image: 'die Nachricht' with thin arrow to message panel, 'die Uhr' to wall clock, 'der Blitz' to lightning, 'zögern' to her halted finger and uncertain expression. Do not put a timestamp on the clock; keep small hands unambiguous and secondary, no extra readable interface text.",
+        "node_id": "Xy5nGtp21jhNUkdVEE4h",
+        "filename": "ch01-scene.webp",
+        "generation_id": "ZgHFqPvU2nMVkjc1ayvn",
+        "width": 2048,
+        "height": 1360,
+        "original_node_id": "DekVOIAyPRSjqpT5oXQ6",
+        "sha256": "0351865611d1f14e7a8171b7235a860bd08f06a255e59463d3323368e91d3e5b",
+        "visual_review": "Reviewed actual final illustration: four correct embedded labels, arrows, scene continuity, no later spoilers."
+      },
+      {
+        "chapter": 2,
+        "after_paragraph": 8,
+        "words": [
+          "der Flur",
+          "die Tür",
+          "der Plan",
+          "gemeinsam"
+        ],
+        "alt": "Mira hält im Flur eine Tür auf, während Ruth auf einen Plan zeigt. Ein kleines Bild von Deniz am Computer und verbindende Pfeile erklären gemeinsam. Alle vier deutschen Wörter stehen im Bild.",
+        "scene": "A coherent narrative cutaway of a practical building-services corridor opening into the local control room, warm amber lights and dark teal equipment. Mira short dark curls olive jacket holds the courtyard door open. Ruth silver BRAID orange work jacket and blue tool bag points at a simple wall plan showing two cooling units sharing a duct. Deniz black curls round glasses mustard sweatshirt is visible ONLY in a small video-call screen at a distant computer, not physically here. Four LARGE precise German callout labels INSIDE the image: 'der Flur' arrow along corridor floor, 'die Tür' arrow to actual open door leaf, 'der Plan' arrow to wall drawing, 'gemeinsam' with connecting arrows between Mira, Ruth and the small remote Deniz screen. Clear teamwork, no industrial hand tools in Deniz's hands. No alarm aftermath or future-book spoilers.",
+        "node_id": "9rsC47Ff5E61LoCCqrIS",
+        "filename": "ch02-scene.webp",
+        "generation_id": "rsLjqwr7AftBtfbjs7Ak",
+        "width": 2048,
+        "height": 1360,
+        "original_node_id": "rkwdq6WEa0JaHmzxizj2",
+        "sha256": "700d8f5f5a7c20330b2db250d1efa85430284cdbe33db9056ee57920eec8b7dc",
+        "visual_review": "Reviewed actual final illustration: four correct embedded labels, arrows, scene continuity, no later spoilers."
+      },
+      {
+        "chapter": 3,
+        "after_paragraph": 8,
+        "words": [
+          "die Taschenlampe",
+          "die Abdeckung",
+          "festhalten",
+          "vorsichtig"
+        ],
+        "alt": "Ruth löst unter dem Vordach eine graue Abdeckung mit rotem Rand. Vier Beschriftungen zeigen die Taschenlampe, die Abdeckung, das Festhalten mit Handschuhen und das vorsichtige Lösen am Halter.",
+        "scene": "One detailed sheltered-courtyard scene, rain beyond canopy, stopped secured intake grille, no rotating machinery. Ruth 52 silver BRAID orange work jacket, protective gloves, carefully frees smooth GREY waterproof fabric TARPAULIN with RED stitched edge from a low bracket, gripping it firmly against wind. A scratched handheld torch on a nearby ledge shines onto her hands. NOT mesh, NOT a net, NOT wires. One small magnifying detail of her careful fingers at the bracket is allowed. Four LARGE exact German labels INSIDE the image: 'die Taschenlampe' arrow to torch body, 'die Abdeckung' arrow to smooth grey red-edged fabric, 'festhalten' arrow to her secure gloved grip with a wind arrow opposing it, 'vorsichtig' arrow to the small slow movement of fabric away from bracket. Adult practical setting, calm careful action, no dangerous electrical work.",
+        "node_id": "Y1m04UOpL25z8gQGBOPy",
+        "filename": "ch03-scene.webp",
+        "generation_id": "FO3V64H0pFbSbj870Ryk",
+        "width": 2048,
+        "height": 1360,
+        "original_node_id": "7Hka7HPdTo9NUbdi0erN",
+        "sha256": "b0829f1f6d294d1c14f59b0990c92bb2800e1ee4a50a3c2b8864ba13c1a44ecb",
+        "visual_review": "Reviewed actual final illustration: four correct embedded labels, arrows, scene continuity, no later spoilers."
+      },
+      {
+        "chapter": 4,
+        "after_paragraph": 8,
+        "words": [
+          "die Leitung",
+          "das Schild",
+          "die Spur",
+          "prüfen"
+        ],
+        "alt": "Ruth und Mira prüfen den örtlichen Wartungsanschluss. Beschriftungen zeigen die Leitung, das Schild am Schrank, übereinstimmende W7-Kennungen als Spur und den Vergleich des Testergebnisses.",
+        "scene": "Single coherent old maintenance cabinet inspection. Ruth silver braid orange work jacket lights a cable with scratched torch. Mira exact reference face short dark curls olive jacket compares a local terminal result with a photograph on her phone. Cable remains PLUGGED IN. Clearly a low-voltage DATA cable, not water hose or industrial pipe. A small yellowed cabinet sign says only W7. A matching W7 tag is on the message-route inset shown on phone; these matching details form an honest local clue, no remote origin shown. Four LARGE exact German callouts INSIDE image: 'die Leitung' points along data cable from connector to wall opening, 'das Schild' points to cabinet sign, 'die Spur' joins the matching W7 identifiers, 'prüfen' points to Mira comparing the received local test result with its sent counterpart. Do not show Deniz physically present, no ECHO explanation.",
+        "node_id": "KCQv19nBHLQgqWZQ3hLR",
+        "filename": "ch04-scene.webp",
+        "generation_id": "pTOOxlX8Bqd32RZ9DbPo",
+        "width": 2048,
+        "height": 1360,
+        "sha256": "371dd87700527a67ace96fa01ed0bd5d954f7a49bd2a524eb71e04300b3e6770",
+        "visual_review": "Reviewed actual final illustration: four correct embedded labels, arrows, scene continuity, no later spoilers."
+      },
+      {
+        "chapter": 5,
+        "after_paragraph": 8,
+        "words": [
+          "der Bericht",
+          "der Zweifel",
+          "zugeben",
+          "erleichtert"
+        ],
+        "alt": "Im Morgenlicht besprechen Mira, Ruth und Deniz den Bericht. Mira gibt ihren Fehler zu; ein kleines Fragezeichen über der ungeklärten Zeit zeigt den Zweifel, und die entspannte Haltung erklärt erleichtert.",
+        "scene": "Warm dawn in operations room after successful work, rain ended outside, railway lights below. All three recurring adults around desk: Mira exact cover face short dark curls olive jacket silver stud, Ruth silver BRAID orange work jacket, Deniz black curls round glasses mustard sweatshirt. Mira openly admits an earlier mistake with open hand and direct eye contact; her shoulders relax as friends listen kindly. Report page with courtyard photo and simple cooling-temperature graph on desk, no tiny prose. A small floating thought inset over the unexplained time/message comparison uses a plain '?' only. Four LARGE accurate German labels INSIDE the scene: 'der Bericht' arrow to actual report page, 'der Zweifel' to question-mark inset about timing, 'zugeben' to Mira's open speaking gesture, 'erleichtert' to her relaxed shoulders and relieved expression. No mysterious secret letter, no Jonas or future revelations.",
+        "node_id": "XMCtGzD5p3YgU9dSCo11",
+        "filename": "ch05-scene.webp",
+        "generation_id": "qycQ7ZcHUa2lrLcu6r26",
+        "width": 2048,
+        "height": 1360,
+        "original_node_id": "NpY8j0auxiNb5aL6Ki84",
+        "sha256": "f57b0b1e8611deda5f84edabf0904017677ef12855e671e83f727aff07e0d0f4",
+        "visual_review": "Reviewed actual final illustration: four correct embedded labels, arrows, scene continuity, no later spoilers."
+      }
+    ]
+  },
+  "artwork_revision": "2026-10-17: five integrated scenes with four embedded German labels each; earlier cards preserved as archive."
 }
