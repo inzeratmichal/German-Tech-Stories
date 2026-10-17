@@ -1,0 +1,38 @@
+{
+  "mode": "unpublished_preview",
+  "story_words": 2926,
+  "words_by_chapter": [
+    549,
+    572,
+    578,
+    588,
+    592
+  ],
+  "paragraph_pairs": 46,
+  "vocabulary_entries": 20,
+  "missing_illustrations": [
+    "ch01-word01.webp",
+    "ch01-word02.webp",
+    "ch01-word03.webp",
+    "ch01-word04.webp",
+    "ch02-word01.webp",
+    "ch02-word02.webp",
+    "ch02-word03.webp",
+    "ch02-word04.webp",
+    "ch03-word01.webp",
+    "ch03-word02.webp",
+    "ch03-word03.webp",
+    "ch03-word04.webp",
+    "ch04-word01.webp",
+    "ch04-word02.webp",
+    "ch04-word03.webp",
+    "ch04-word04.webp",
+    "ch05-word01.webp",
+    "ch05-word02.webp",
+    "ch05-word03.webp",
+    "ch05-word04.webp"
+  ],
+  "final_cover_present": false,
+  "full_audio_present": false,
+  "manuscript_sha256": "8e38502b43fa1ce0c184239b4af42f2b23e3cef8e91dfe66699cde3ba2159a1a"
+}

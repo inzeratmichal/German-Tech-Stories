@@ -1,0 +1,89 @@
+{
+  "viewport_checks": [
+    {
+      "width": 320,
+      "route": "index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 2,
+      "open_translations": 0
+    },
+    {
+      "width": 320,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 46,
+      "open_translations": 0
+    },
+    {
+      "width": 390,
+      "route": "index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 2,
+      "open_translations": 0
+    },
+    {
+      "width": 390,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 46,
+      "open_translations": 0
+    },
+    {
+      "width": 768,
+      "route": "index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 2,
+      "open_translations": 0
+    },
+    {
+      "width": 768,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 46,
+      "open_translations": 0
+    },
+    {
+      "width": 1280,
+      "route": "index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 2,
+      "open_translations": 0
+    },
+    {
+      "width": 1280,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "overflow": false,
+      "missing_images": 0,
+      "translation_count": 46,
+      "open_translations": 0
+    }
+  ],
+  "browser_errors": [],
+  "independent_translation": true,
+  "answers_open": true,
+  "escape_closes_menu": true,
+  "counts": {
+    "chapters": 5,
+    "vocabulary": 20,
+    "multiple_choice": 3,
+    "written": 2,
+    "unique_ids": true,
+    "broken_anchor_count": 0
+  },
+  "print_css": {
+    "english_hidden": true,
+    "answers_hidden": true,
+    "toolbar_hidden": true
+  },
+  "zoom_equivalent_overflow": false,
+  "no_js_reading": true,
+  "audio_speed": "Not tested: recording missing",
+  "actual_print_pagination": "Pending with final artwork"
+}

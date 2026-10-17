@@ -1,0 +1,44 @@
+{
+  "audio": {
+    "status": "blocked_before_test",
+    "provider": "ElevenLabs plugin",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "blocker": "creative_generate_speech has no output_format parameter. creative_get_model_schema(tts, eleven_v4) on 2026-10-17 returns only voice_id and language_code; exact output format cannot be set or guaranteed. No paid audio generation submitted.",
+    "direction": "Clear standard German; warm, grounded adult audiobook narration, natural varied rhythm, restrained suspense, subtle dialogue, meaningful pauses. No music or effects.",
+    "pronunciation": {
+      "Falkenbrück": "German compound Falken + brück; stress first syllable",
+      "Mira Winter": "German Mira Winter",
+      "Deniz Kaya": "Deniz Kaya; verify natural pronunciation in test",
+      "Ruth Berger": "German Ruth Berger",
+      "ECHO": "German word Echo",
+      "Gateway": "usual German technical usage"
+    },
+    "review": "Not generated, listened to or verified."
+  },
+  "cover": {
+    "status": "source_saved_and_visually_reviewed_portrait_adaptation_pending",
+    "provider": "ElevenLabs plugin",
+    "model_id": "gpt-image-2",
+    "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
+    "node_id": "EXnUpAhGpus0KGZnp2o6",
+    "session_id": "gUPE3Ci7Jv5nEBKY0Jya",
+    "generation_id": "tstTKemwJJfejGafFCsk",
+    "variations": 1,
+    "requested_composition": "portrait 2:3, spoiler-free operations-room storm scene, Mira with red notebook",
+    "returned_pending_aspect_ratio": 1.7778,
+    "note": "Pending metadata reports landscape aspect despite portrait prompt. Inspect existing generation before any correction; do not resubmit as a retry. Do not save signed access links in repository.",
+    "path": "artwork/cover-source.png",
+    "actual_width": 1280,
+    "actual_height": 720,
+    "review": "Consistent Mira, red notebook, storm window and rail tracks. Landscape ratio is not final portrait cover. Reuse source for adaptation; no repeat generation submitted."
+  },
+  "vocabulary_artwork": {
+    "status": "20_scene_briefs_ready_not_generated",
+    "count_required": 20,
+    "per_chapter": 4,
+    "briefs": "learning.json",
+    "style": "Adult cinematic editorial illustration. Deep blue and muted teal infrastructure, warm amber human spaces. Consistent guide character appearances. Landscape 4:3. Target labels in HTML, not generated pixels. Each card explains meaning with an arrow, contrast, highlighted object or short sequence. No later-series spoilers."
+  }
+}

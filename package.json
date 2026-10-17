@@ -1,0 +1,8 @@
+{
+  "name": "german-tech-stories",
+  "private": true,
+  "scripts": {
+    "preview:build": "node tools/build.cjs",
+    "release:build": "node tools/build.cjs --release"
+  }
+}

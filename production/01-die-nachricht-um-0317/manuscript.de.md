@@ -1,0 +1,105 @@
+# Die Nachricht um 03:17
+
+Die Nachrichten von morgen · Buch 01
+
+Falkenbrück, Herbst 2045. Mira Winter kennt die Geräusche einer Nachtschicht: Lüfter, Regen, einen Löffel in einer Tasse. Doch heute erreicht sie eine Nachricht, die es nicht geben dürfte. Elf Minuten können sehr kurz sein. Besonders dann, wenn man zu lange versucht, allein die richtige Antwort zu finden.
+
+## 1. Elf Minuten
+
+Um 03:17 erschien auf Miras Bildschirm eine Nachricht: »Kühlung West. Alarm um 03:28. Zugang über den Hof freihalten.« Darunter stand ihre eigene Warteschlange als Empfänger. Mira stellte die Tasse ab. Im Westbereich liefen die Geräte, die das Netz am Fluss versorgten. Auch Ruth arbeitete dort draußen. Vor zehn Minuten hatte sie noch ein Foto von ihren völlig nassen Schuhen geschickt.
+
+Ein Blitz machte die Fenster der Nachtwache weiß. Für einen Moment sah Mira nur ihr Spiegelbild: kurze dunkle Locken, müde Augen, der silberne Ohrstecker. Dann waren die Anzeigen wieder da. Alle grün. Die Nachtwache war ihr Betriebsraum über den Gleisen, kein besonders gemütlicher Ort. Trotzdem hatte sie sich hier bisher sicher gefühlt. Sie kannte jeden normalen Alarmton. Diese Nachricht war ohne Ton gekommen.
+
+Deniz saß am anderen Ende des Raums und versuchte, einen Automatenkeks aus seiner Verpackung zu befreien. »Eine Schere wäre keine Niederlage«, sagte Mira. »Es geht um Würde«, antwortete er. Sie wollte ihm die Nachricht zeigen. Dann sah sie den Eingangsweg: W7-ALT. Laut dem Plan war dieser Wartungsweg seit Jahren abgeschaltet. Vielleicht war das nur ein alter Test. Sie wollte erst sicher sein.
+
+Sie öffnete den vollständigen Eingang und speicherte eine Kopie. Kein Anhang, kein Link, keine Aufforderung, irgendeinen Befehl auszuführen. Nur drei kurze Zeilen und eine Kennung: ECHO. Der Name sagte ihr nichts. Im Empfangsprotokoll stand 03:17. Im Text stand 03:28. Sie rieb mit dem Daumen über den Rand ihres roten Notizbuchs und schrieb beide Zeiten auf.
+
+Früher hätte sie Jonas gefragt. Er hätte erst zugehört und dann eine unbequeme Frage gestellt. Seit ihr früherer Mentor verschwunden war, hörte sie seine Fragen manchmal im Kopf. Antworten bekam sie keine. Sie hatte lange genug erlebt, wie aus einem Verdacht im Büro eine angebliche Tatsache wurde. Diesmal wollte sie niemanden wegen einer seltsamen Zeile aus dem Regen holen.
+
+Die Uhr über der Tür zeigte 03:19. Mira prüfte die Temperaturen. Der Westbereich war etwas wärmer als vor einer halben Stunde, aber noch unter dem Grenzwert. Beide Kühlgeräte meldeten Betrieb. Der Hof lag auf Ruths Weg zurück. Ein Anruf wäre einfach gewesen. Mira zögerte trotzdem. Sie suchte lieber nach dem letzten abgeschlossenen Test mit der Kennung W7.
+
+Sie fand keinen. Dafür stand im Arbeitsplan dieser Nacht ein Eintrag: »Alte Vermittlung 7, Stromversorgung nach Sturmschaden wiederherstellen.« Der zuständige Dienst hatte die Arbeit um 03:14 als erledigt gemeldet. Drei Minuten später war die Nachricht angekommen. Mira setzte einen Kreis um den Eintrag. Das bewies noch keine Verbindung. Aber plötzlich passte der abgeschaltete Weg nicht mehr zu ihrer Vorstellung von einem harmlosen alten Test.
+
+Neben der Tasse lag Ruths Foto noch auf dem Telefon. Auf dem nassen Schuh war eine kleine gelbe Blume zu sehen, die jemand auf den Gummi gemalt hatte. Ruths Enkelin hatte das getan, hatte sie am Abend erzählt. Mira sah wieder zur Nachricht. Sie wollte Ruth nicht unnötig beunruhigen. Aber wenn die Warnung stimmte, war Schweigen auch eine Entscheidung. Keine besonders gute.
+
+Neben ihr knackte es laut. Deniz hatte gewonnen; die Hälfte des Kekses lag auf dem Boden. Er sah ihren Bildschirm und hörte auf zu lächeln. »Was ist um halb vier?« Mira drehte sich zu ihm. »Vielleicht nichts. Vielleicht ein Problem mit der Kühlung.« Sie hörte selbst, wie wenig diese Antwort half. Dann schob sie den Stuhl zur Seite. »Ich zeige dir alles. Und wir rufen Ruth an.«
+
+## 2. Zwei Geräte, ein Weg
+
+Ruth nahm sofort ab. Hinter ihrer Stimme schlug Regen gegen Metall. »Ich stehe noch am Tor. Der Lieferwagen versperrt den halben Hof.« Mira las ihr die Nachricht vor, ohne die seltsame Zeit zu verschweigen. Ruth fragte nicht, ob Mira müde sei. »Gut. Ich lasse den Wagen wegfahren und sehe mir die Anlage an. Schick mir den Eingang, nicht nur deine Zusammenfassung.«
+
+Deniz zog die runde Brille höher und öffnete die Verlaufskurven. Mira nahm den lokalen Kontrollplatz im Westbereich hinzu. Dort konnte sie die Anlage sehen und Ruth treffen; Deniz sollte in der Nachtwache bleiben. »Wir ändern nichts auf Zuruf dieser Nachricht«, sagte sie. »Erst prüfen wir die wirkliche Anlage.« Er nickte. »Eine unbekannte Nachricht bekommt bei mir nicht einmal einen Gastzugang.«
+
+Der Flur zum Westbereich war schmal und roch nach frischer Farbe. Mira ging schnell, ihre olivgrüne Jacke über dem Arm. Hinter einer Tür summten die Netzgeräte. Hinter der nächsten lag der Kontrollraum der Haustechnik. Sie blieb vor dem Fenster stehen. Zwei Kühlgeräte, zwei grüne Lichter. Von hier aus sah alles ordentlich aus. Genau das machte die Sache so unangenehm.
+
+Ruth kam durch den Hofeingang herein. Ihre silberne Flechte klebte an der orangefarbenen Arbeitsjacke. Sie stellte die blaue Werkzeugtasche ab und sah auf den Plan an der Wand. »Woher bekommen beide Geräte ihre Luft?« Mira deutete auf zwei Linien. »Getrennte Geräte.« Ruth sah sie an. »Das habe ich nicht gefragt.« Mira folgte den Linien weiter. Am Rand des Blatts verschwanden sie im selben grauen Rechteck.
+
+Auf dem Übersichtsbild in der Nachtwache war dieses Rechteck nicht zu sehen. Hier stand klein »gemeinsamer Ansaugkanal«. Mira fotografierte die Zeichnung für Deniz. Er schwieg kurz am Telefon. Dann sagte er: »Zwei grüne Lichter und ein gemeinsamer Hals.« Ruth zog ihre Handschuhe an. »Dann sehen wir nach, ob dieser Hals frei ist.« Draußen rüttelte der Wind an der Tür. Mira hielt sie fest, während Ruth die Tasche aufnahm.
+
+Ruth kniete kurz vor dem unteren Kontrollfenster. »Hörst du den Unterschied?«, fragte sie. Mira hörte ein unruhiges Pfeifen unter dem gleichmäßigen Motorgeräusch. Ruth deutete auf den gemeinsamen Kanal. »Die Motoren laufen. Ob genug Luft ankommt, sagt uns ihr grünes Licht nicht.« Mira notierte das Geräusch für die Haustechnik. Die Übersicht zeigte Zustände. Ruth suchte nach dem, was wirklich zwischen den Geräten geschah.
+
+Es war 03:26. Deniz meldete, dass die Temperatur jetzt schneller stieg. Die laufenden Lüfter allein bewiesen keinen ausreichenden Luftstrom. Mira wollte Ruth in den Hof folgen, doch Ruth hob die Hand. »Der Zugang ist mein Bereich. Du bleibst am Kontrollplatz und hältst die Verbindung. Sonst stehen wir gleich beide draußen und wissen nicht, was drinnen passiert.« Mira öffnete den Mund und schloss ihn wieder. Ruth hatte recht.
+
+Gemeinsam legten sie die nächsten Schritte fest. Deniz bereitete die freigegebene Verlagerung eines Teils der Netzlast vor. Mira sollte die örtlichen Werte beobachten und mit der Haustechnik sprechen. Ruth würde nur den geschützten Zugang prüfen; bei losen Teilen über dem Hof musste sie zurück. Sie kannten solche Abläufe. Neu war, dass Mira keine Erklärung für den Anfang hatte und trotzdem eine klare Entscheidung treffen musste.
+
+Um 03:28 erklang der Alarm. Das rote Licht über dem Kontrollplatz blinkte, und das Telefon in Miras Hand vibrierte. »Kühlung West: Temperaturgrenze überschritten.« Sie starrte einen Augenblick auf die Uhr. Dann drückte sie die Sprechtaste. »Alarm bestätigt. Wir machen weiter wie besprochen.« Ihr Herz schlug schnell. Die Nachricht hatte recht gehabt. Das war jetzt weniger wichtig als die Menschen, die auf ihre nächste Antwort warteten.
+
+## 3. Unter dem Vordach
+
+»Ich bin unter dem Vordach«, sagte Ruth. »Hier ist es sicher. Aber ich sehe etwas vor dem unteren Gitter.« Auf ihrem Kamerabild lief Regen in schrägen Linien über den Hof. Ihre zerkratzte Taschenlampe beleuchtete ein breites Stück grauen Stoff. Bei jedem Windstoß hob es sich ein wenig und legte sich wieder an das Gitter. Mira erkannte einen dunklen roten Rand.
+
+Am Nachmittag hatte eine Firma an der Hofwand gearbeitet. Die graue Abdeckung hatte ihre Geräte vor Staub geschützt. Mira erinnerte sich an das Bild im Arbeitsbericht: sauber gefaltet, mit roten Rändern. Nun hing ein Ende zwischen einer Stütze und dem Ansauggitter. Der Sturm musste die schlecht befestigte Plane dorthin gezogen haben. Kein geheimer Angriff. Etwas sehr Gewöhnliches, am falschen Ort und zur falschen Zeit.
+
+Ruth zog nicht sofort daran. »Das sitzt unter Spannung. Ich brauche den Ansaugbereich ausgeschaltet, bevor ich an die Wartungsöffnung gehe.« Die zuständige Technikerin der Haustechnik war inzwischen am Kontrollplatz. Sie prüfte Ruths Standort und den Ablauf. Mira gab Deniz das vereinbarte Zeichen. Er begann, die vorbereitete Netzlast zu verlagern. Auf dem Bildschirm wanderten Verbindungen aus dem warmen Bereich. Die Kunden sollten davon möglichst wenig merken.
+
+Eine Gruppe wollte nicht mit. Deniz meldete einen Dienst, der den vorgesehenen Wechsel ablehnte. Mira kannte seinen Eigentümer und rief die Bereitschaft an. Während es klingelte, erschien eine neue Temperaturmessung. Noch höher. Sie spürte den Wunsch, einfach irgendetwas auszuschalten. Stattdessen erklärte sie knapp die Lage und bat um den geprüften Ersatzweg. Am anderen Ende wurde jemand sehr schnell sehr wach.
+
+»Ich habe vorhin Zeit verloren«, sagte Mira zu Deniz, als die Verbindung stand. »Ich habe allein nach einem alten Test gesucht.« Sie wartete auf eine Frage oder einen Vorwurf. Deniz sagte nur: »Dann verschwenden wir jetzt keine Zeit damit, dich dafür fertigzumachen. Der Ersatzweg ist frei.« Mira atmete aus. Sie gab die Verlagerung frei und sah zu, wie die letzte große Last den Westbereich verließ.
+
+Die Haustechnikerin stoppte die betroffene Anlage und sicherte sie für die Arbeit. Ruth bestätigte die Freigabe vor Ort. Erst dann öffnete sie den vorgesehenen Zugang. »Vorsichtig«, hörte Mira sie sagen. Es klang, als spreche Ruth mit der Plane. Ein Stück Stoff löste sich, dann blieb es an der Stütze hängen. Ruth musste es dort festhalten, damit der Wind es nicht in den Hof zurückriss.
+
+Vom Hof kam ein kurzes Klopfen. Ruth bat Mira, ihren Sprechkanal offen zu lassen. »Erzähl mir einfach die Werte. Dann höre ich auch, dass du noch da bist.« Mira las die nächste Messung vor, langsam und deutlich. Zum ersten Mal verstand sie, dass eine ruhige Stimme bei dieser Arbeit ebenso nützlich sein konnte wie ein sauberer Plan. Sie konnte gerade nichts anfassen. Trotzdem konnte sie helfen.
+
+Mira sah auf die Werte. Ohne die normale Kühlung stieg die Temperatur weiter, aber langsamer. Die reduzierte Last gab ihnen Zeit. »Wie lange?«, fragte sie. »Noch einen Moment«, sagte Ruth. Im Kamerabild erschien ihre orangefarbene Schulter. Dann verschwand die graue Fläche vor dem Gitter. Ruth legte die Plane in eine leere Materialkiste und sicherte den Deckel. »Frei. Und diesmal fliegt das Ding nicht wieder los.«
+
+Nach Ruths Rückmeldung und der Kontrolle des Zugangs startete die Haustechnikerin die Anlage wieder. Es war 03:33. Die erste Messung änderte sich kaum. Bei der zweiten hielt Mira unbewusst den Atem an. Bei der dritten sank die Temperatur. »Luftstrom wieder normal«, sagte die Technikerin. Ruth kam durch die Tür, nass bis auf die Haut. Mira reichte ihr ihre trockene Jacke. Diesmal versuchte sie nicht, noch etwas allein zu erledigen.
+
+## 4. Das gelbe Licht
+
+Eine Viertelstunde später waren die Werte stabil. Keine Geräte waren beschädigt, kein Dienst war ausgefallen. Deniz ließ die Last zunächst auf dem Ersatzweg. Die normale Verteilung konnte bei Tageslicht zurückkehren, nach einer weiteren Prüfung. Mira unterschrieb die örtliche Übergabe an die Haustechnik. Unter Ursache schrieb sie: »Gemeinsamer Lufteinlass durch lose Abdeckung blockiert.« Der Satz war kurz genug für ein Formular. Die Nacht passte nicht hinein.
+
+Ruth trug Miras olivgrüne Jacke über den Schultern. »Jetzt die andere Hälfte«, sagte sie. »Wo kam die Nachricht her?« Mira öffnete den Plan auf ihrem Gerät. W7-ALT endete an einem grauen Kästchen mit einem Kreuz darüber. Ruth betrachtete es. »Dieses Kreuz hat keine Leitung durchgeschnitten.« Sie zeigte auf eine Tür hinter dem Kontrollraum. »Dort ist der alte Verteiler. Den sehen wir uns an, bevor uns die Zeichnung schlafen schickt.«
+
+Sie holten den Zugangsschlüssel bei der Haustechnik. Hinter der Tür standen zwei alte Schränke. An einem leuchtete ein gelbes Licht. Es war klein und ruhig, ganz anders als der rote Alarm von vorhin. Ruth leuchtete auf ein vergilbtes Schild: »W7 – Wartung / Notbetrieb«. Darunter führte eine Leitung durch eine getrennte Durchführung in die Wand. Am Stecker hing dieselbe alte Kennung wie im Eingang der Nachricht.
+
+Mira fotografierte Schild, Kabel und Anschluss. Deniz suchte gleichzeitig nach der Schnittstelle am lokalen Gateway. »Die sehe ich«, sagte er. »Im normalen Übersichtsbild ist sie ausgeblendet. Empfangene Daten seit dem Neustart: ja.« Sie verglichen die Anschlussnummern, ohne etwas abzuziehen. Die Spur war jetzt mehr als ein Name auf einem Bildschirm. Hier gab es ein eingeschaltetes Gerät und eine wirkliche Verbindung zur Warteschlange.
+
+Auf dem Schrank lag eine dünne Staubschicht. Um den Schalter herum war sie unterbrochen, doch das war kein Beweis für einen heimlichen Besucher. Der Wiederherstellungsdienst hatte hier gearbeitet. Mira hielt auch das fest. Seit der Nachricht suchte ihr Kopf überall nach Absichten. Ruths Fotos halfen ihr, zwischen einem auffälligen Detail und einer Erklärung zu unterscheiden. Nicht jeder Fingerabdruck war eine Geschichte.
+
+Der Dienst, der die Stromversorgung wiederhergestellt hatte, bestätigte seinen Auftrag. Der alte Schrank gehörte zum wieder versorgten Abschnitt. Niemand hatte für diese Nacht eine neue Datenverbindung eingerichtet. Das Gateway war beim Einschalten mit seiner gespeicherten Konfiguration gestartet. »Also war der Weg nicht wirklich weg«, sagte Mira. Ruth nickte. »Er hatte nur keinen Strom. Das ist ein wichtiger Unterschied, auch wenn beides auf einem Bildschirm still aussieht.«
+
+Sie konnten den örtlichen Weg prüfen, ohne den unbekannten Absender zu erreichen. Nach Freigabe durch die zuständige Bereitschaft schickte Deniz eine klar markierte Testzeile vom lokalen Wartungsanschluss zur Warteschlange. Mira sah sie ankommen. Anschluss, Weiterleitung und Empfang passten zusammen. Der Versuch zeigte, wie Daten hier hineinkamen. Er zeigte nicht, wer am anderen Ende der alten Leitung saß. Mira schrieb diese Grenze ausdrücklich neben das Ergebnis.
+
+»Ziehen wir den Stecker?«, fragte Deniz. Er klang nicht überzeugt. Mira betrachtete die Aufschrift Notbetrieb. Eine unbekannte Abhängigkeit wurde nicht dadurch harmlos, dass man sie unsichtbar machte. Sie ließen die Verbindung bestehen, begrenzten nach dem freigegebenen Verfahren den Zugang zur untersuchten Warteschlange und sicherten die Protokolle. Die vollständige Aufnahme des Wegs brauchte einen eigenen Auftrag. Ruth befestigte einen neuen Hinweis am Schrank: »Aktiv. Plan korrigieren.«
+
+Mira strich das Kreuz auf ihrer Arbeitskopie durch. Zum ersten Mal in dieser Nacht fühlte sie festen Boden unter den Füßen. Eine Plane hatte die Kühlung blockiert. Ein wieder eingeschaltetes Gateway hatte eine alte Verbindung nutzbar gemacht. Zwei seltsame Dinge hatten überprüfbare Erklärungen. Nur die elf Minuten blieben. Sie sah noch einmal die Kennung ECHO an. Dann schloss sie das Fenster, ohne den Namen aus ihren Gedanken zu bekommen.
+
+## 5. Was wir wissen
+
+Als der Himmel über den Gleisen heller wurde, saßen sie wieder in der Nachtwache. Ruth hatte trockene Sachen aus ihrem Wagen geholt. Miras Jacke hing über einem Stuhl. Deniz stellte drei Tassen auf den Tisch und legte den geretteten halben Keks daneben. »Frühstück für drei«, sagte er. Ruth betrachtete die Krümel. »Wenn du den gerecht teilst, gebe ich dir die nächste schwierige Messung.«
+
+Mira schrieb den Bericht. Die Ursache der Kühlstörung war belegt, die Abdeckung gesichert, der gemeinsame Lufteinlass kontrolliert. Der Auftrag für bessere Befestigungen ging an die verantwortliche Firma. Die Haustechnik bestätigte die stabilen Werte. Für den alten Wartungsweg gab es einen eigenen offenen Vorgang mit Fotos, Anschlussnummern und dem Testergebnis. Niemand sollte später nur das Wort »erledigt« sehen und die Hälfte der Nacht überlesen.
+
+Im letzten Abschnitt stockte sie. »Unbekannte Vorabinformation«, schrieb sie und löschte es wieder. Das klang wie etwas, das sie schon verstanden hatten. Ruth sah von ihrer Tasse auf. »Schreib, was passiert ist.« Also schrieb Mira: »Eingang einer Warnung um 03:17. Im Text genannte Alarmzeit: 03:28. Temperaturalarm um 03:28 beobachtet. Ursprung und Grundlage der Warnung unbekannt.« Sie fügte die gesicherte Originalnachricht hinzu.
+
+»Ein alter Alarm aus einer Warteschlange erklärt den Text nicht einfach«, sagte Deniz. »Aber wir haben auch nicht jede Uhr und jede Quelle geprüft.« Mira nickte. Sie würden die Zeitfrage getrennt untersuchen. Es gab genug Gründe für Zweifel, ohne die Nacht zu leugnen. Auf keinen Fall würde sie in einen Bericht schreiben, jemand habe die Zukunft gesehen. Sie hatte einen Empfang, einen Alarm und eine offene Frage. Das war schon erstaunlich genug.
+
+Vor dem Absenden drehte Mira den Bericht zu den anderen. Deniz ergänzte die genaue Bezeichnung des Ersatzwegs. Ruth korrigierte den Ort der Abdeckung: vor dem unteren Gitter, nicht im Lüfter. Es war eine kleine Änderung, aber sie verhinderte ein falsches Bild. Mira ließ beide Ergänzungen stehen. Der Bericht wurde dadurch genauer. Und er klang endlich nach der Arbeit von drei Menschen.
+
+Die Frühschicht kam mit kalter Luft und dem Geruch frischer Brötchen herein. Mira erklärte die Lastverlagerung und zeigte die offenen Aufträge. Als eine Kollegin fragte, wer die unbekannte Leitung gefunden hatte, deutete sie auf Ruth. Früher hätte sie vielleicht »wir« gesagt und die einzelnen Beiträge verschwinden lassen. Heute beschrieb sie genau, wie Ruth den Plan angezweifelt und den echten Anschluss gesucht hatte.
+
+Nach der Übergabe blieb Mira vor Jonas’ leerem Platz stehen. Auf dem Tisch lag kein geheimnisvoller Brief, nur eine saubere Tastatur. Sie musste zugeben, dass sie am Anfang nicht nur Beweise gesucht hatte. Sie hatte sich eine Antwort gewünscht, die sie ohne Hilfe finden konnte. Vielleicht, weil sie das Warten auf Jonas’ Antworten nicht mehr ertrug. Deniz blieb neben ihr stehen, sagte aber nichts. Das half mehr als ein guter Rat.
+
+»Beim nächsten Mal rufe ich früher an«, sagte sie schließlich. Ruth zog den Reißverschluss ihrer Tasche zu. »Du darfst auch anrufen, bevor du weißt, was los ist.« Mira sah sie an. »Das ist der schwierige Teil.« »Ich weiß.« Ruth gab ihr die Jacke zurück. »Deshalb üben wir jetzt an etwas Leichtem. Du entscheidest, wo wir frühstücken. Deniz entscheidet nichts, solange er diesen Keks verteidigt.«
+
+Draußen hatte der Regen aufgehört. Auf dem Weg zum Café Nebenan spiegelte sich helles Licht in den Pfützen. Mira war erschöpft und erleichtert. Die Geräte liefen, die Ursache war gefunden, und der alte Weg war endlich als aktiv vermerkt. ECHO stand als offene Frage in einem gemeinsamen Vorgang. Sie musste den Namen nicht allein mit nach Hause nehmen. Als Ruth die Cafétür aufhielt, steckte Mira das rote Notizbuch ein und ging zu den anderen hinein.

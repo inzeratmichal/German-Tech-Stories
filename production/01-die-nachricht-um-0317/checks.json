@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-17",
+  "manuscript_sha256": "8e38502b43fa1ce0c184239b4af42f2b23e3cef8e91dfe66699cde3ba2159a1a",
+  "story_review": true,
+  "translations_review": true,
+  "artwork_visual_review": false,
+  "audio_configuration_verified": false,
+  "audio_listening_review": false,
+  "responsive_keyboard_review": false,
+  "print_review": false,
+  "editorial_notes": [
+    "Separate self-edit added character stakes, Ruth's physical sound clue, useful voice contact, a non-conspiratorial interpretation of dust, and joint correction of the report. Story now 2926 words; no padding to exact chapter lengths.",
+    "Hook: specific cooling warning, impossible route and concern for Ruth in first 150 words. Mira's private investigation costs time; admitting uncertainty changes the team response.",
+    "Fair clues paid off: shared intake, restoration work at 03:14, matching W7 physical label/interface. Local cooling fault and local incoming route resolved; remote source and advance knowledge explicitly remain unknown.",
+    "Read German/English pairs for referents, tense, times, actions and paragraph correspondence. 46 pairs including introduction. Selected B2 words support mostly B1 sentences and adult dialogue.",
+    "Vocabulary reviewed in assigned chapter, including inflected zögerte for infinitive zögern and Zweifel for dictionary der Zweifel. 20 distinct entries, four per chapter. Three single-answer MC items and two model written answers reviewed.",
+    "No author-only ECHO explanation or later-arc revelations in reader, labels, questions or alt text."
+  ],
+  "preview_checks": {
+    "browser": "Microsoft Edge headless via Playwright",
+    "viewports": [320,390,768,1280],
+    "library_and_nested_book_no_horizontal_overflow": true,
+    "present_images_loaded": true,
+    "all_46_translations_initially_closed": true,
+    "independent_keyboard_translation_toggle": true,
+    "answers_reveal": true,
+    "escape_closes_contents_menu": true,
+    "all_anchor_targets_exist": true,
+    "unique_ids": true,
+    "no_javascript_core_reading_and_native_disclosures": true,
+    "640px_reflow_equivalent_to_200_percent_desktop_width": true,
+    "print_css_hides_english_answers_toolbar": true,
+    "runtime_errors": 0,
+    "visual_screenshots_inspected": ["390px hero", "1280px hero"],
+    "limits": "Draft only: 20 art cards currently labels without artwork; no audio player is rendered. Full page visual inspection, all artwork, actual browser zoom, complete keyboard traversal, audio speed and A4 pagination still pending. Responsive/print final review flags remain false."
+  },
+  "publication_gate": "release:build correctly refused incomplete media; no dist/site publication output created",
+  "cover_review": "Downloaded and visually inspected existing 1280x720 cover source. Mira appearance, storm window, rail tracks and red notebook consistent. Landscape ratio fails the requested final portrait composition. Preserve existing source; adaptation pending.",
+  "live_verification": "Not performed; web tool could not access expected Pages URL. No deployment attempted."
+}
