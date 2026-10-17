@@ -15,7 +15,7 @@ Tracker prepared: **2026-10-17**
 
 ## Next action
 
-**Build Book 01 — Die Nachricht um 03:17; do not publish until all required media and checks pass.**
+**Resume Book 01 — Die Nachricht um 03:17. Resolve exact ElevenLabs MP3 format control; finish artwork/audio and final checks before publication.**
 
 If the audit confirms there is no existing work, begin **Book 01 — Die Nachricht um 03:17**. Reuse existing text, illustrations, and audio wherever suitable. Do not restart completed work or duplicate paid generations.
 
@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | in_progress | Current checkpoint | — | — |
+| 01 | Die Nachricht um 03:17 | blocked | 2026-10-17 draft checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -73,19 +73,19 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 Production started after reading the live roadmap and tracker and the attached guide.
 
 - **Book number/title:** 01 — Die Nachricht um 03:17.
-- **Status:** in_progress
-- **Stage:** Planning and writing; audio capability audit.
+- **Status:** blocked
+- **Stage:** German/English manuscript and unpublished reader drafted and checked; media production incomplete.
 - **Last updated:** 2026-10-17
-- **Working branch/commit:** main at 12a4a54c7713abdece10de9306036f805a1f6161 (audit).
-- **Book directory and manuscript:** Not recorded.
-- **Illustration paths and generation identifiers:** Not recorded.
-- **Audio passages/final asset and generation identifiers:** Not recorded.
-- **Deployment URL/run:** Not recorded.
-- **Completed work:** Live main tree audited: only books.md and progress.md; no Book 01 assets or site workflow. Local Der letzte Ping is a separate older story and remains untouched.
-- **Pending work:** Create Book 01 manuscript, translations, learning material, reader and media; verify before publication.
-- **Checks actually performed and evidence:** Read live books.md/progress.md and full attached guide; inspected main tree and branches. Public Pages URL could not be accessed through web tool.
-- **Blocker:** ElevenLabs creative_generate_speech and eleven_v4 tts schema expose no output_format control; exact mp3_44100_128 cannot currently be guaranteed. No paid audio generation submitted.
-- **Exact next action:** Draft and edit the five-chapter standalone mystery and paragraph translations; build unpublished reader. Resolve exact ElevenLabs output format before audio test.
+- **Working branch/commit:** main; source checkpoint 61be14629368d02234ea6217413dc19683568aad.
+- **Book directory and manuscript:** production/01-die-nachricht-um-0317/manuscript.json (single bilingual source); manuscript.de.md; learning.json; narration.txt. Local preview: .preview/site/books/01-die-nachricht-um-0317/index.html.
+- **Illustration paths and generation identifiers:** artwork/cover-source.png: saved/visually inspected 1280×720 source; final 2:3 adaptation pending. ElevenLabs gpt-image-2 flow TRZ0PRZjlFUzTOcoeH9A, node EXnUpAhGpus0KGZnp2o6, session gUPE3Ci7Jv5nEBKY0Jya, generation tstTKemwJJfejGafFCsk; one variation. All 20 vocabulary scene briefs/alt texts ready in learning.json; illustrations not generated.
+- **Audio passages/final asset and generation identifiers:** Complete German narration.txt derived from final manuscript. No audio generation submitted and no recording reviewed. Required voice/model/format preserved in media.json; no fallback.
+- **Deployment URL/run:** None. No publication attempted; draft preview ignored by Git. Main had no site files or workflow at audit; expected Pages URL inaccessible through web tool, so current hosting state remains unverified.
+- **Completed work:** 2,926 German story words, five chapters, 46 paragraph translation pairs; standalone cooling fault/local maintenance path resolved without later-series revelations. Exactly 20 vocabulary entries, three multiple-choice and two written questions/model answers. Shared Falkenbrück Reader static template and build, spoiler-free library draft, narration source, production plan, continuity.md, and review records saved.
+- **Pending work:** 20 finished vocabulary illustrations; final portrait cover adaptation; exact-format narration test and complete reviewed audiobook; final whole-page/media, true 200% zoom, keyboard traversal and A4 pagination checks; inspect/configure Pages workflow, publish and verify live.
+- **Checks actually performed and evidence:** checks.json, browser-checks.json and build-report.json: story/translation self-edit; vocabulary/chapter and question review; 320/390/768/1280px library and nested reader have no horizontal overflow, present images load, 46 translations start closed and toggle independently by keyboard, hidden answers reveal, Escape closes contents, anchors/IDs valid, no-JS reading works. Print CSS hides English/answers/toolbar; actual pagination pending. 390/1280px hero screenshots and cover source visually inspected. Release build correctly refuses missing illustrations. No audio-speed/listening or live verification claimed.
+- **Blocker:** Connected ElevenLabs creative_generate_speech exposes no output_format parameter; creative_get_model_schema(tts, eleven_v4) lists only voice_id and language_code. Exact mp3_44100_128 cannot be set or guaranteed. Do not spend on an incompatible test. Artwork and final verification are also unfinished, not completed.
+- **Exact next action:** Obtain a supported ElevenLabs plugin control or documented guarantee for mp3_44100_128 with eleven_v4 and voice Ny7r2ffG0v2p3DYyFvhb; then create/review the representative audio test. Reuse saved cover source/job, finish portrait adaptation and 20 4:3 cards using model schema settings. Follow production README resume order. Never regenerate existing work merely to resume.
 
 ### Required audio configuration
 
@@ -102,13 +102,13 @@ Record actual supported delivery settings, pronunciation guidance, job identifie
 
 Tick a box only after the corresponding work and verification are complete. Record paths or concise evidence in the checkpoint. Reset this checklist only after preserving the finished book's record below.
 
-- [ ] Current `books.md`, preceding story context, and continuity reviewed.
-- [ ] Complete German story edited for plot, continuity, grammar, and mostly B1 language with selected B2 vocabulary.
-- [ ] Every story paragraph has a matching hidden English translation; individual toggles work.
+- [x] Current `books.md`, preceding story context, and continuity reviewed.
+- [x] Complete German story edited for plot, continuity, grammar, and mostly B1 language with selected B2 vocabulary.
+- [x] Every story paragraph has a matching hidden English translation; individual toggles work.
 - [ ] Every chapter has 3–5 finished vocabulary illustrations; exactly 20 distinct entries are covered overall.
 - [ ] Artwork, German labels, articles, and alternative text visually checked.
-- [ ] Final vocabulary list contains all 20 entries and their English meanings.
-- [ ] Three multiple-choice and two written-answer questions checked; hidden German answers work.
+- [x] Final vocabulary list contains all 20 entries and their English meanings.
+- [x] Three multiple-choice and two written-answer questions checked; hidden German answers work.
 - [ ] Complete audio generated with the required ElevenLabs configuration.
 - [ ] Audio completeness, pronunciation, performance, passage joins, and playback assessed.
 - [ ] Responsive layout, keyboard controls, chapter navigation, image paths, and playback-speed controls checked.
@@ -126,6 +126,14 @@ After these checks pass, update the register to `completed` with the date, verif
 Created the 30-book register from the agreed roadmap. Repository production state has not been verified. No book is marked completed.
 
 For each later checkpoint or completion, append a concise record containing the book number/title, date, status/stage, artifact paths, checks and evidence, relevant commit/deployment, remaining issues, and exact next action. Keep completed records available to future agents.
+
+### 2026-10-17 — Book 01 draft checkpoint
+
+- **Book/status:** 01 — Die Nachricht um 03:17; blocked at media production, not published or completed.
+- **Source commit:** 61be14629368d02234ea6217413dc19683568aad; production/01-die-nachricht-um-0317/ contains manuscript, translations, learning material, narration script, plan, media IDs and actual review records. template/ and tools/build.cjs build an unpublished local preview; release mode refuses incomplete media.
+- **Evidence:** 2,926 German words, five chapters, 46 translation pairs, 20 entries, five questions. Edge draft checks at four widths, native disclosures/no-JS, anchors and print hiding pass; final illustration/audio/A4 checks remain open. One cover source generated and visually reviewed; landscape-to-portrait adaptation pending. Twenty vocabulary illustrations not generated.
+- **Blocker/next:** Exact ElevenLabs output-format control unavailable. Resolve mp3_44100_128 before the narration test; preserve required voice/model. Follow production README for remaining media and publication. No paid audio or duplicate cover generation.
+- **Access note:** Command-line push lacked credentials; saved all 18 source/artwork files through the connected GitHub plugin instead. No credentials or signed media links committed. Local Der letzte Ping and synced sources remain untouched.
 
 ## Update rules
 
