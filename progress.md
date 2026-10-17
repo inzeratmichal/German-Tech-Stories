@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | blocked | 2026-10-17 draft checkpoint | — | — |
+| 01 | Die Nachricht um 03:17 | in_progress | 2026-10-17 draft checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -73,8 +73,8 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 Production started after reading the live roadmap and tracker and the attached guide.
 
 - **Book number/title:** 01 — Die Nachricht um 03:17.
-- **Status:** blocked
-- **Stage:** German/English manuscript and unpublished reader drafted and checked; media production incomplete.
+- **Status:** in_progress
+- **Stage:** Resumed on user request: generate 20 vocabulary illustrations and portrait cover; narration output-format limitation rechecked and unchanged.
 - **Last updated:** 2026-10-17
 - **Working branch/commit:** main; source checkpoint 61be14629368d02234ea6217413dc19683568aad.
 - **Book directory and manuscript:** production/01-die-nachricht-um-0317/manuscript.json (single bilingual source); manuscript.de.md; learning.json; narration.txt. Local preview: .preview/site/books/01-die-nachricht-um-0317/index.html.
