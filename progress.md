@@ -15,7 +15,7 @@ Tracker prepared: **2026-10-17**
 
 ## Next action
 
-**Audit existing repository work and deployments, then identify the earliest unfinished book.**
+**Build Book 01 — Die Nachricht um 03:17; do not publish until all required media and checks pass.**
 
 If the audit confirms there is no existing work, begin **Book 01 — Die Nachricht um 03:17**. Reuse existing text, illustrations, and audio wherever suitable. Do not restart completed work or duplicate paid generations.
 
@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | unverified | — | — | — |
+| 01 | Die Nachricht um 03:17 | in_progress | Current checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -70,22 +70,22 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 ## Current checkpoint
 
-No active production checkpoint has been verified. Fill the fields below when work starts. Before switching books, preserve the previous checkpoint in the History and completion records section.
+Production started after reading the live roadmap and tracker and the attached guide.
 
-- **Book number/title:** Not yet selected; repository audit pending.
-- **Status:** unverified
-- **Stage:** Repository and deployment audit.
+- **Book number/title:** 01 — Die Nachricht um 03:17.
+- **Status:** in_progress
+- **Stage:** Planning and writing; audio capability audit.
 - **Last updated:** 2026-10-17
-- **Working branch/commit:** Not recorded.
+- **Working branch/commit:** main at 12a4a54c7713abdece10de9306036f805a1f6161 (audit).
 - **Book directory and manuscript:** Not recorded.
 - **Illustration paths and generation identifiers:** Not recorded.
 - **Audio passages/final asset and generation identifiers:** Not recorded.
 - **Deployment URL/run:** Not recorded.
-- **Completed work:** This tracker has been prepared; no book production is claimed.
-- **Pending work:** Audit existing work, read `books.md`, and select the earliest unfinished book.
-- **Checks actually performed and evidence:** None recorded for book content or deployment.
-- **Blocker:** No production blocker established; repository state remains unverified.
-- **Exact next action:** Read live `books.md`, inspect existing book files and deployments, and reconcile this register.
+- **Completed work:** Live main tree audited: only books.md and progress.md; no Book 01 assets or site workflow. Local Der letzte Ping is a separate older story and remains untouched.
+- **Pending work:** Create Book 01 manuscript, translations, learning material, reader and media; verify before publication.
+- **Checks actually performed and evidence:** Read live books.md/progress.md and full attached guide; inspected main tree and branches. Public Pages URL could not be accessed through web tool.
+- **Blocker:** ElevenLabs creative_generate_speech and eleven_v4 tts schema expose no output_format control; exact mp3_44100_128 cannot currently be guaranteed. No paid audio generation submitted.
+- **Exact next action:** Draft and edit the five-chapter standalone mystery and paragraph translations; build unpublished reader. Resolve exact ElevenLabs output format before audio test.
 
 ### Required audio configuration
 
