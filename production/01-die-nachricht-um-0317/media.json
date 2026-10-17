@@ -1,11 +1,10 @@
 {
   "audio": {
-    "status": "blocked_before_test",
+    "status": "assembled_format_and_completeness_checked_listening_pending",
     "provider": "ElevenLabs plugin",
     "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
     "model_id": "eleven_v4",
     "output_format": "mp3_44100_128",
-    "blocker": "creative_generate_speech has no output_format parameter. creative_get_model_schema(tts, eleven_v4) on 2026-10-17 returns only voice_id and language_code; exact output format cannot be set or guaranteed. No paid audio generation submitted.",
     "direction": "Clear standard German; warm, grounded adult audiobook narration, natural varied rhythm, restrained suspense, subtle dialogue, meaningful pauses. No music or effects.",
     "pronunciation": {
       "Falkenbrück": "German compound Falken + brück; stress first syllable",
@@ -15,30 +14,256 @@
       "ECHO": "German word Echo",
       "Gateway": "usual German technical usage"
     },
-    "review": "Not generated, listened to or verified."
+    "review": "All five plugin transcription results match complete plain-text passage scripts. MP3/browser decoding, clipping, volume spread, playback/seek/speed checked. Agent cannot accept audio input; natural delivery, pronunciation and joins have NOT been listened to. User confirmed Lola voice; full recording listening review pending.",
+    "voice_name": "Lola - Immersive Storytelling",
+    "format_basis": "Official API convert documentation default, verified 2026-10-17; all downloaded MP3 passages and final file independently scanned at 44100Hz/128kbps.",
+    "format_reference": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+    "path": "audio/story.mp3",
+    "manifest": "audio/manifest.json",
+    "duration_seconds": 1294.8114285714285,
+    "test": {
+      "generation_id": "2chkcxO8ohDJG7vRX4sQ",
+      "node_id": "xzdCqN4sHXfFf3Y07k0O",
+      "session_id": "nVVibfRQ9OTkLBgt4azL",
+      "path": "audio/test.mp3",
+      "format_verified": true,
+      "note": "Test contained supported direction tags; transcription returned them in text, so it does not prove they were unspoken. Full recording uses plain prose only, with no tags."
+    }
   },
   "cover": {
-    "status": "source_saved_and_visually_reviewed_portrait_adaptation_pending",
+    "status": "portrait_finished_visually_reviewed",
     "provider": "ElevenLabs plugin",
     "model_id": "gpt-image-2",
     "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
-    "node_id": "EXnUpAhGpus0KGZnp2o6",
-    "session_id": "gUPE3Ci7Jv5nEBKY0Jya",
-    "generation_id": "tstTKemwJJfejGafFCsk",
+    "node_id": "IR76MIKkEj7ZDIAl0XqY",
+    "session_id": "9IIok5KOnw4WCgE0WkGr",
+    "generation_id": "LiIHzmYUY7J5QvNyUYBi",
     "variations": 1,
     "requested_composition": "portrait 2:3, spoiler-free operations-room storm scene, Mira with red notebook",
-    "returned_pending_aspect_ratio": 1.7778,
-    "note": "Pending metadata reports landscape aspect despite portrait prompt. Inspect existing generation before any correction; do not resubmit as a retry. Do not save signed access links in repository.",
-    "path": "artwork/cover-source.png",
-    "actual_width": 1280,
-    "actual_height": 720,
-    "review": "Consistent Mira, red notebook, storm window and rail tracks. Landscape ratio is not final portrait cover. Reuse source for adaptation; no repeat generation submitted."
+    "path": "artwork/cover.webp",
+    "actual_width": 1024,
+    "actual_height": 1536,
+    "review": "Portrait adaptation preserves Mira face/clothing, red notebook, storm window and railway setting. No later-book spoiler. Visually inspected.",
+    "original_source": {
+      "path": "artwork/cover-source.png",
+      "generation_id": "tstTKemwJJfejGafFCsk",
+      "session_id": "gUPE3Ci7Jv5nEBKY0Jya"
+    },
+    "aspect_ratio": "2:3",
+    "quality": "high",
+    "resolution": "1K"
   },
   "vocabulary_artwork": {
-    "status": "20_scene_briefs_ready_not_generated",
+    "status": "20_generated_optimized_and_visually_reviewed",
     "count_required": 20,
     "per_chapter": 4,
     "briefs": "learning.json",
-    "style": "Adult cinematic editorial illustration. Deep blue and muted teal infrastructure, warm amber human spaces. Consistent guide character appearances. Landscape 4:3. Target labels in HTML, not generated pixels. Each card explains meaning with an arrow, contrast, highlighted object or short sequence. No later-series spoilers."
+    "style": "Adult cinematic editorial illustration. Deep blue and muted teal infrastructure, warm amber human spaces. Consistent guide character appearances. Landscape 4:3. Target labels in HTML, not generated pixels. Each card explains meaning with an arrow, contrast, highlighted object or short sequence. No later-series spoilers.",
+    "assets": [
+      {
+        "word": "die Nachricht",
+        "path": "artwork/ch01-word01.webp",
+        "node_id": "xIuOZW77ewvSahdB0qxJ",
+        "generation_id": "9xynXZckDPq0J6UXD69q",
+        "width": 1024,
+        "height": 768,
+        "sha256": "96cfa0d22ba89e4efb0bf8ba236c816d34fe874c4fb4707570d4867169c3056a",
+        "reviewed": true
+      },
+      {
+        "word": "die Uhr",
+        "path": "artwork/ch01-word02.webp",
+        "node_id": "aJXC6PKWjW8jfUMPb9wa",
+        "generation_id": "0txO5xzsaorl85vwkVbb",
+        "width": 1024,
+        "height": 768,
+        "sha256": "21755826d07d6164712784db420fcc7dfb9c30d0e831300dcb67b4e31146503c",
+        "reviewed": true
+      },
+      {
+        "word": "der Blitz",
+        "path": "artwork/ch01-word03.webp",
+        "node_id": "nl39LpG6c7D4mmQ1ttcl",
+        "generation_id": "5PXGyBlfYkVjjKuWhhg0",
+        "width": 1024,
+        "height": 768,
+        "sha256": "0239d5dde699b121b201c2d9152643f47054a283464bb58d2737e7eeffb6585b",
+        "reviewed": true
+      },
+      {
+        "word": "zögern",
+        "path": "artwork/ch01-word04.webp",
+        "node_id": "KUvgyPq9bYArzunOGVI8",
+        "generation_id": "j0upMITpA52vXhRtmXnE",
+        "width": 1024,
+        "height": 768,
+        "sha256": "cb0882941ccfcec748640cd54f33f004c9a4283feffac2ae55ed3f245c292b76",
+        "reviewed": true
+      },
+      {
+        "word": "der Flur",
+        "path": "artwork/ch02-word01.webp",
+        "node_id": "Dpu1FyteB53z8qfckhC6",
+        "generation_id": "rPwOpWBCOvmH3sesJXvy",
+        "width": 1024,
+        "height": 768,
+        "sha256": "8d25bf1106912883172cae5894fd232dd650a62e92218cadd6e17148f5bb3f2d",
+        "reviewed": true
+      },
+      {
+        "word": "die Tür",
+        "path": "artwork/ch02-word02.webp",
+        "node_id": "lL9jYuz3Rga5S5n0gMoQ",
+        "generation_id": "vnl2VjKXvn2jqnGnuUyj",
+        "width": 1024,
+        "height": 768,
+        "sha256": "eec4a2b71a5300a90a602c971a46864d6f8e6c282df6f1aa0731cf43f40d2014",
+        "reviewed": true
+      },
+      {
+        "word": "der Plan",
+        "path": "artwork/ch02-word03.webp",
+        "node_id": "xiQPdzVZC3NXKJFg4P2w",
+        "generation_id": "sW09DdrAiHgeIO5apqWu",
+        "width": 1024,
+        "height": 768,
+        "sha256": "0ff33026800fa95810bed3d1b615f87a6c45d846d0bce0fc47dfef2a34f15887",
+        "reviewed": true
+      },
+      {
+        "word": "gemeinsam",
+        "path": "artwork/ch02-word04.webp",
+        "node_id": "rJrgzdl4o6l5mZEL0u5k",
+        "generation_id": "pEPLO4sBfnj61JXzESiT",
+        "width": 1024,
+        "height": 768,
+        "sha256": "d95361165ce6839a9ad4b2963f0a59ada5849ac2f0b9f0053da93f514dd9dc81",
+        "reviewed": true,
+        "repair_reason": "Deniz must work at a terminal, as in story; show three different locations rather than manual electrical work.",
+        "original_node_id": "eieBb72RWP7az30FuADq"
+      },
+      {
+        "word": "die Taschenlampe",
+        "path": "artwork/ch03-word01.webp",
+        "node_id": "hOaDP4dRf3SGwLQP3ACE",
+        "generation_id": "X5x8GsxGksywsQG6eX4z",
+        "width": 1024,
+        "height": 768,
+        "sha256": "3ced61ee7b0d015229719bb4dab0d41f1a3ecba76a360a0e2c0156eeb850068e",
+        "reviewed": true
+      },
+      {
+        "word": "die Abdeckung",
+        "path": "artwork/ch03-word02.webp",
+        "node_id": "TFG068oFstDmggyJPu9e",
+        "generation_id": "PAHQRuMBQriHgZUMt0Oh",
+        "width": 1024,
+        "height": 768,
+        "sha256": "f0bbc75a71eef6a07c360daa85378813005f7a7199a29908a5e2b7e1318bad16",
+        "reviewed": true
+      },
+      {
+        "word": "festhalten",
+        "path": "artwork/ch03-word03.webp",
+        "node_id": "YlMN8gV3O3XJNDTZs16T",
+        "generation_id": "5WhDbCQm2XpeYFCOsJkN",
+        "width": 1024,
+        "height": 768,
+        "sha256": "880a37e4284973714345e9612e8f793e0c969b96b0e3cce3cd9014904a395895",
+        "reviewed": true
+      },
+      {
+        "word": "vorsichtig",
+        "path": "artwork/ch03-word04.webp",
+        "node_id": "OSxO2CTRnFbyLH27bjfw",
+        "generation_id": "Psfil6Kpae5Ls1pu0Wnc",
+        "width": 1024,
+        "height": 768,
+        "sha256": "a32bb94fa94c62e398811492c793577fa036c040fa0ae58c226bcf45b11b2361",
+        "reviewed": true,
+        "repair_reason": "Replace incorrectly rendered net with the story's grey protective tarpaulin and depict careful handling.",
+        "original_node_id": "TTmd342zOOyZZ0udkiv9"
+      },
+      {
+        "word": "die Leitung",
+        "path": "artwork/ch04-word01.webp",
+        "node_id": "pEk94lG7NFXRZPUsaGVp",
+        "generation_id": "eAPXBdV9C0vnrrPSNhDD",
+        "width": 1024,
+        "height": 768,
+        "sha256": "3b31fd0bc9051bbdcd47eecb8410feba16c60fb45462a33aef7c92c8b1bae36b",
+        "reviewed": true
+      },
+      {
+        "word": "das Schild",
+        "path": "artwork/ch04-word02.webp",
+        "node_id": "IGAmeQsDOWwce15Er1so",
+        "generation_id": "dAuKo0WS0uHN0zCSVjBv",
+        "width": 1024,
+        "height": 768,
+        "sha256": "1cb7baa3e67ef581f72d09e3180f92891e8e6d346a3c3a4f09f85f81d764db23",
+        "reviewed": true
+      },
+      {
+        "word": "die Spur",
+        "path": "artwork/ch04-word03.webp",
+        "node_id": "5bQEbdb5HoXiIyHfFGZ4",
+        "generation_id": "KMEQ0VGJlytZn0V1ZbiP",
+        "width": 1024,
+        "height": 768,
+        "sha256": "b0929390acb2100a4dee5545f3bea56854a48f72613afb47c7f595a4b6a969ee",
+        "reviewed": true
+      },
+      {
+        "word": "prüfen",
+        "path": "artwork/ch04-word04.webp",
+        "node_id": "xNI34b9HlP8pO8jV8maq",
+        "generation_id": "T8gjGSaLxadXColid5aJ",
+        "width": 1024,
+        "height": 768,
+        "sha256": "76a408b25d79e365f1f640f37bdf2f0672ed442c41697e5fcfea6962ca78a777",
+        "reviewed": true
+      },
+      {
+        "word": "der Bericht",
+        "path": "artwork/ch05-word01.webp",
+        "node_id": "EA7CLOdPfbZAh7J44o0a",
+        "generation_id": "lTsiF6WR4yCpsD4bOnEj",
+        "width": 1024,
+        "height": 768,
+        "sha256": "d187f100c970ff922035ef1a7500a5d09a027ef1a5f26654a38bc0c4556ea84f",
+        "reviewed": true
+      },
+      {
+        "word": "der Zweifel",
+        "path": "artwork/ch05-word02.webp",
+        "node_id": "sLuH3MMXtdvqZYQoOJmR",
+        "generation_id": "euuYZQaPYyIVVz1HdSuW",
+        "width": 1024,
+        "height": 768,
+        "sha256": "6c4a9c794ff07335034441a78e21f40c87488d8f6b3e22f6562a9151035f7280",
+        "reviewed": true
+      },
+      {
+        "word": "zugeben",
+        "path": "artwork/ch05-word03.webp",
+        "node_id": "48kpcHL3Hdt0lQ3OATJf",
+        "generation_id": "nuhlbwIVG7DqnHRzy0L6",
+        "width": 1024,
+        "height": 768,
+        "sha256": "6e1a3045357830e8b4711c3afae92a458e2dda70278f53056ccf34c77f514255",
+        "reviewed": true
+      },
+      {
+        "word": "erleichtert",
+        "path": "artwork/ch05-word04.webp",
+        "node_id": "4uJ6gqzsXb19arrNCYG8",
+        "generation_id": "216YlywbxoHWB366IuZV",
+        "width": 1024,
+        "height": 768,
+        "sha256": "249f4d76afd5a42ea519abb3d7f59d100589fde0ba7c8c0fe5554a1ba4bb766f",
+        "reviewed": true
+      }
+    ]
   }
 }

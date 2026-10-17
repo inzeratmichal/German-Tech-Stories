@@ -1,3 +1,6 @@
 .preview/
 node_modules/
 *.log
+production/*/artwork/ch*.png
+production/*/artwork/cover-generated.png
+production/*/audio/chapter-*.mp3

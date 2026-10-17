@@ -1,0 +1,39 @@
+{
+  "status": "downloaded_format_verified",
+  "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
+  "node_id": "xzdCqN4sHXfFf3Y07k0O",
+  "session_ids": [
+    "nVVibfRQ9OTkLBgt4azL"
+  ],
+  "results": [
+    {
+      "success": true,
+      "node_id": "xzdCqN4sHXfFf3Y07k0O",
+      "session_id": "nVVibfRQ9OTkLBgt4azL",
+      "credit_costs": {
+        "2chkcxO8ohDJG7vRX4sQ": 545.9454000000001
+      }
+    }
+  ],
+  "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+  "model_id": "eleven_v4",
+  "output_format": "mp3_44100_128",
+  "format_basis": "Official convert endpoint documentation default, supplied by user and verified 2026-10-17: https://elevenlabs.io/docs/api-reference/text-to-speech/convert",
+  "script": "[warmly] Die Nachricht um 03:17. Falkenbrück, Herbst 2045. Mira Winter stellte die Tasse ab. Auf dem Bildschirm stand eine Warnung vor einem Kühlungsalarm. [cautiously] Die Kennung lautete ECHO. Das Gateway sollte längst abgeschaltet sein. [warmly] »Ruth, hörst du mich?«, fragte Mira. »Ja. Schick mir die Nachricht, nicht nur deine Zusammenfassung.« Deniz rückte seine runde Brille zurecht. »Zwei grüne Lichter sagen uns noch nicht, ob genug Luft ankommt.« Mira sah zur Uhr. Es war 03:26. Sie atmete aus. »Dann prüfen wir die Anlage. Gemeinsam.«",
+  "path": "audio/test.mp3",
+  "actual_format": {
+    "file": "test.mp3",
+    "bytes": 623627,
+    "frames": 1451,
+    "sample_rates": [
+      44100
+    ],
+    "bitrates_kbps": [
+      128
+    ],
+    "duration_seconds": 37.903673469387755,
+    "first_frame_offset": 17170
+  },
+  "listening_by_agent": false,
+  "user_voice_confirmation": "2026-10-17: generated Lola voice looks good; keep same voice in future."
+}

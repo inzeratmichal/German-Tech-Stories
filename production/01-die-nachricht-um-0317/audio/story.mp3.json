@@ -1,0 +1,13 @@
+{
+  "file": "story.mp3",
+  "bytes": 20716979,
+  "frames": 49567,
+  "sample_rates": [
+    44100
+  ],
+  "bitrates_kbps": [
+    128
+  ],
+  "duration_seconds": 1294.8114285714287,
+  "first_frame_offset": 0
+}

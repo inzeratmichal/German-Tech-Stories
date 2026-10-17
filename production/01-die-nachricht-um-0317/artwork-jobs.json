@@ -1,0 +1,150 @@
+{
+  "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
+  "jobs": [
+    {
+      "kind": "cover",
+      "node_id": "IR76MIKkEj7ZDIAl0XqY",
+      "prompt": "Adapt the connected EXISTING cover artwork into a polished portrait 2:3 novella cover illustration. Preserve Mira's exact face, short dark curls, olive field jacket, silver ear stud, red notebook, painterly cinematic texture and storm-window scene. Recompose rather than squeeze: Mira foreground in lower-middle, rain-streaked window and railway lights behind, warm lamp at edge, lightning at upper left. Leave quiet dark teal space at top for HTML title treatment. Beautiful adult editorial illustration, warm human amber against deep teal. No text, no logos. Do not reveal the mystery's cause. Realistic hands. The clock may be omitted; do not introduce a wrong clock time. Keep full head and notebook inside composition."
+    },
+    {
+      "kind": "vocabulary",
+      "index": 0,
+      "word": "die Nachricht",
+      "node_id": "xIuOZW77ewvSahdB0qxJ",
+      "filename": "ch01-word01.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 1,
+      "word": "die Uhr",
+      "node_id": "aJXC6PKWjW8jfUMPb9wa",
+      "filename": "ch01-word02.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 2,
+      "word": "der Blitz",
+      "node_id": "nl39LpG6c7D4mmQ1ttcl",
+      "filename": "ch01-word03.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 3,
+      "word": "zögern",
+      "node_id": "KUvgyPq9bYArzunOGVI8",
+      "filename": "ch01-word04.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 4,
+      "word": "der Flur",
+      "node_id": "Dpu1FyteB53z8qfckhC6",
+      "filename": "ch02-word01.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 5,
+      "word": "die Tür",
+      "node_id": "lL9jYuz3Rga5S5n0gMoQ",
+      "filename": "ch02-word02.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 6,
+      "word": "der Plan",
+      "node_id": "xiQPdzVZC3NXKJFg4P2w",
+      "filename": "ch02-word03.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 7,
+      "word": "gemeinsam",
+      "node_id": "eieBb72RWP7az30FuADq",
+      "filename": "ch02-word04.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 8,
+      "word": "die Taschenlampe",
+      "node_id": "hOaDP4dRf3SGwLQP3ACE",
+      "filename": "ch03-word01.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 9,
+      "word": "die Abdeckung",
+      "node_id": "TFG068oFstDmggyJPu9e",
+      "filename": "ch03-word02.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 10,
+      "word": "festhalten",
+      "node_id": "YlMN8gV3O3XJNDTZs16T",
+      "filename": "ch03-word03.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 11,
+      "word": "vorsichtig",
+      "node_id": "TTmd342zOOyZZ0udkiv9",
+      "filename": "ch03-word04.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 12,
+      "word": "die Leitung",
+      "node_id": "pEk94lG7NFXRZPUsaGVp",
+      "filename": "ch04-word01.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 13,
+      "word": "das Schild",
+      "node_id": "IGAmeQsDOWwce15Er1so",
+      "filename": "ch04-word02.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 14,
+      "word": "die Spur",
+      "node_id": "5bQEbdb5HoXiIyHfFGZ4",
+      "filename": "ch04-word03.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 15,
+      "word": "prüfen",
+      "node_id": "xNI34b9HlP8pO8jV8maq",
+      "filename": "ch04-word04.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 16,
+      "word": "der Bericht",
+      "node_id": "EA7CLOdPfbZAh7J44o0a",
+      "filename": "ch05-word01.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 17,
+      "word": "der Zweifel",
+      "node_id": "sLuH3MMXtdvqZYQoOJmR",
+      "filename": "ch05-word02.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 18,
+      "word": "zugeben",
+      "node_id": "48kpcHL3Hdt0lQ3OATJf",
+      "filename": "ch05-word03.webp"
+    },
+    {
+      "kind": "vocabulary",
+      "index": 19,
+      "word": "erleichtert",
+      "node_id": "4uJ6gqzsXb19arrNCYG8",
+      "filename": "ch05-word04.webp"
+    }
+  ]
+}

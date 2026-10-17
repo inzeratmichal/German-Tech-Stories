@@ -1,0 +1,13 @@
+{
+  "file": "test.mp3",
+  "bytes": 623627,
+  "frames": 1451,
+  "sample_rates": [
+    44100
+  ],
+  "bitrates_kbps": [
+    128
+  ],
+  "duration_seconds": 37.903673469387755,
+  "first_frame_offset": 17170
+}

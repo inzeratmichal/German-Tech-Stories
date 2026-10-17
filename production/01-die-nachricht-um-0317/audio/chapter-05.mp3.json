@@ -1,0 +1,13 @@
+{
+  "file": "chapter-05.mp3",
+  "bytes": 4238556,
+  "frames": 10100,
+  "sample_rates": [
+    44100
+  ],
+  "bitrates_kbps": [
+    128
+  ],
+  "duration_seconds": 263.83673469387753,
+  "first_frame_offset": 17170
+}

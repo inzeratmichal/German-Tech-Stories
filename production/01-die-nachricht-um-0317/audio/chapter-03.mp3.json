@@ -1,0 +1,13 @@
+{
+  "file": "chapter-03.mp3",
+  "bytes": 3938880,
+  "frames": 9383,
+  "sample_rates": [
+    44100
+  ],
+  "bitrates_kbps": [
+    128
+  ],
+  "duration_seconds": 245.1069387755102,
+  "first_frame_offset": 17170
+}

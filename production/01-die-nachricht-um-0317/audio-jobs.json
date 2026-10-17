@@ -1,0 +1,41 @@
+{
+  "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
+  "voice_name": "Lola - Immersive Storytelling",
+  "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+  "model_id": "eleven_v4",
+  "output_format": "mp3_44100_128",
+  "format_basis": "Documented default and actual test MP3 confirmed 44100 Hz / 128 kbps",
+  "no_direction_tags": true,
+  "jobs": [
+    {
+      "chapter": 1,
+      "node_id": "ZU7HY4yyDF7SsZruSLvR",
+      "characters": 3858,
+      "filename": "chapter-01.mp3"
+    },
+    {
+      "chapter": 2,
+      "node_id": "0ssgFCiHbAuneuL0OGcl",
+      "characters": 3735,
+      "filename": "chapter-02.mp3"
+    },
+    {
+      "chapter": 3,
+      "node_id": "nydQW5rEZt51wub9EOLV",
+      "characters": 3744,
+      "filename": "chapter-03.mp3"
+    },
+    {
+      "chapter": 4,
+      "node_id": "yw1jafp867qx1vBZNlRe",
+      "characters": 4104,
+      "filename": "chapter-04.mp3"
+    },
+    {
+      "chapter": 5,
+      "node_id": "Z1s0OIuEgFllHvgKPubG",
+      "characters": 3851,
+      "filename": "chapter-05.mp3"
+    }
+  ]
+}

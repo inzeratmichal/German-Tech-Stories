@@ -1,0 +1,141 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "route": "index.html",
+      "horizontal_overflow": false,
+      "images": 1,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 320,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "horizontal_overflow": false,
+      "images": 21,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 390,
+      "route": "index.html",
+      "horizontal_overflow": false,
+      "images": 1,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 390,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "horizontal_overflow": false,
+      "images": 21,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 768,
+      "route": "index.html",
+      "horizontal_overflow": false,
+      "images": 1,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 768,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "horizontal_overflow": false,
+      "images": 21,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 1280,
+      "route": "index.html",
+      "horizontal_overflow": false,
+      "images": 1,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    },
+    {
+      "width": 1280,
+      "route": "books/01-die-nachricht-um-0317/index.html",
+      "horizontal_overflow": false,
+      "images": 21,
+      "failed_images": 0,
+      "open_translations": 0,
+      "answers_hidden": true
+    }
+  ],
+  "audio": {
+    "duration": 1294.811188,
+    "autoplay": false,
+    "preload": "metadata",
+    "readyState": 4,
+    "speed": 1.25,
+    "seek_checks": [
+      {
+        "target": 0,
+        "currentTime": 0.118351,
+        "paused": false,
+        "error": null
+      },
+      {
+        "target": 272,
+        "currentTime": 272.185803,
+        "paused": false,
+        "error": null
+      },
+      {
+        "target": 519,
+        "currentTime": 519.186229,
+        "paused": false,
+        "error": null
+      },
+      {
+        "target": 765,
+        "currentTime": 765.184821,
+        "paused": false,
+        "error": null
+      },
+      {
+        "target": 1031,
+        "currentTime": 1031.18017,
+        "paused": false,
+        "error": null
+      },
+      {
+        "target": 1290,
+        "currentTime": 1290.208664,
+        "paused": false,
+        "error": null
+      }
+    ]
+  },
+  "independent_translation": true,
+  "answers_reveal": true,
+  "menu_escape": true,
+  "links": {
+    "broken_anchors": [],
+    "duplicate_ids": false
+  },
+  "no_js": {
+    "chapters": 5,
+    "images": 21,
+    "native_toggle": true
+  },
+  "zoom_200": {
+    "page_scale_factor": 2,
+    "overflow": false
+  },
+  "print": {
+    "translations_hidden": true,
+    "answers_hidden": true
+  }
+}

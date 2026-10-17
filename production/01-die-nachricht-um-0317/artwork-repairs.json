@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "index": 7,
+      "reason": "Deniz must work at a terminal, as in story; show three different locations rather than manual electrical work.",
+      "prompt": "Correct this vocabulary card for the meaning GEMEINSAM (together). Keep adult painterly style and identical faces. Three equally sized panels in ONE row, simple and readable. LEFT: Mira, short dark curls olive jacket silver ear stud, at the local control console looking at temperature readings. MIDDLE: Deniz, black curls round glasses mustard sweatshirt, SITTING at an ordinary computer keyboard in the operations room; he is moving network load in software. NO tools, NO drill, NO hand-held cable or industrial connector. RIGHT: Ruth, silver BRAID orange work jacket, outside under a canopy with scratched torch inspecting intake access. Three clear arrows converge from panels to a small simple stable-equipment symbol at bottom. They cooperate from DIFFERENT locations. No text or words. No duplicated faces or extra inset panels.",
+      "original_node_id": "eieBb72RWP7az30FuADq",
+      "node_id": "rJrgzdl4o6l5mZEL0u5k",
+      "filename": "ch02-word04.webp"
+    },
+    {
+      "index": 11,
+      "reason": "Replace incorrectly rendered net with the story's grey protective tarpaulin and depict careful handling.",
+      "prompt": "Correct this vocabulary card for the meaning VORSICHTIG (carefully). Keep Ruth's face, orange work jacket, silver BRAID, cinematic adult painterly style. Three numbered panels left to right with ONLY 1 2 3 symbols and clear small movement arrows. Same GREY waterproof fabric protective TARPAULIN with RED stitched edge in every panel. The fabric is smooth opaque flexible grey cloth, NOT a net, not mesh, not cables, not rope. Ruth wears protective gloves. Panel 1 she looks closely at grey fabric caught on a low bracket beside a stopped secured intake grille under a courtyard canopy. Panel 2 she slowly frees the RED EDGED GREY FABRIC from the bracket with both gloved hands. Panel 3 she gently folds the same grey fabric into a materials box with lid. Clear careful small gestures. No electrical work, no touching rotating equipment. No word labels or prose.",
+      "original_node_id": "TTmd342zOOyZZ0udkiv9",
+      "node_id": "OSxO2CTRnFbyLH27bjfw",
+      "filename": "ch03-word04.webp"
+    }
+  ],
+  "run": {
+    "session_ids": [
+      "DQCwibUPIzjuaVCyNbIg",
+      "oCcOnQHI3QmB3DasRPxW"
+    ],
+    "results": [
+      {
+        "success": true,
+        "node_id": "rJrgzdl4o6l5mZEL0u5k",
+        "session_id": "DQCwibUPIzjuaVCyNbIg",
+        "credit_costs": {
+          "pEPLO4sBfnj61JXzESiT": 1126.6923166928689
+        }
+      },
+      {
+        "success": true,
+        "node_id": "OSxO2CTRnFbyLH27bjfw",
+        "session_id": "oCcOnQHI3QmB3DasRPxW",
+        "credit_costs": {
+          "Psfil6Kpae5Ls1pu0Wnc": 1126.6923166928689
+        }
+      }
+    ]
+  }
+}

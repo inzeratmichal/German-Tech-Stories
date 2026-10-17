@@ -1,0 +1,33 @@
+{
+  "method": "Compared complete returned transcription text to final narration scripts with whitespace/punctuation/case normalized. Supports completeness, not natural-delivery verification.",
+  "chapters": [
+    {
+      "chapter": 1,
+      "word_count": 604,
+      "matched": true
+    },
+    {
+      "chapter": 2,
+      "word_count": 578,
+      "matched": true
+    },
+    {
+      "chapter": 3,
+      "word_count": 583,
+      "matched": true
+    },
+    {
+      "chapter": 4,
+      "word_count": 593,
+      "matched": true
+    },
+    {
+      "chapter": 5,
+      "word_count": 597,
+      "matched": true
+    }
+  ],
+  "all_five_match": true,
+  "narration_has_direction_tags": false,
+  "listening_review": false
+}

@@ -1,0 +1,66 @@
+{
+  "method": "Browser MP3 decoding; 20 ms RMS windows. Technical analysis only, not listening review.",
+  "passages": [
+    {
+      "file": "chapter-01.mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_seconds": 271.44,
+      "rms_db": -21.802402578092078,
+      "active_rms_db": -20.466023753252763,
+      "peak_db": -5.766305874218571,
+      "clipped_samples": 0,
+      "leading_silence_seconds": 0.08,
+      "trailing_silence_seconds": 0.12
+    },
+    {
+      "file": "chapter-02.mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_seconds": 246.08,
+      "rms_db": -21.215526138389848,
+      "active_rms_db": -19.97887812804987,
+      "peak_db": -4.167515881871745,
+      "clipped_samples": 0,
+      "leading_silence_seconds": 0.02,
+      "trailing_silence_seconds": 0.12
+    },
+    {
+      "file": "chapter-03.mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_seconds": 245.04,
+      "rms_db": -21.045916677906376,
+      "active_rms_db": -19.947991953195352,
+      "peak_db": -4.979201554338351,
+      "clipped_samples": 0,
+      "leading_silence_seconds": 0.04,
+      "trailing_silence_seconds": 0.12
+    },
+    {
+      "file": "chapter-04.mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_seconds": 264.08,
+      "rms_db": -21.21552548011138,
+      "active_rms_db": -20.0838670752684,
+      "peak_db": -4.1110165681824355,
+      "clipped_samples": 0,
+      "leading_silence_seconds": 0.04,
+      "trailing_silence_seconds": 0.14
+    },
+    {
+      "file": "chapter-05.mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "duration_seconds": 263.76,
+      "rms_db": -21.062733248565394,
+      "active_rms_db": -19.694103236037865,
+      "peak_db": -5.91869267257657,
+      "clipped_samples": 0,
+      "leading_silence_seconds": 0.04,
+      "trailing_silence_seconds": 0.14
+    }
+  ],
+  "active_rms_spread_db": 0.7719205172148982
+}

@@ -3,11 +3,11 @@
   "manuscript_sha256": "8e38502b43fa1ce0c184239b4af42f2b23e3cef8e91dfe66699cde3ba2159a1a",
   "story_review": true,
   "translations_review": true,
-  "artwork_visual_review": false,
-  "audio_configuration_verified": false,
+  "artwork_visual_review": true,
+  "audio_configuration_verified": true,
   "audio_listening_review": false,
-  "responsive_keyboard_review": false,
-  "print_review": false,
+  "responsive_keyboard_review": true,
+  "print_review": true,
   "editorial_notes": [
     "Separate self-edit added character stakes, Ruth's physical sound clue, useful voice contact, a non-conspiratorial interpretation of dust, and joint correction of the report. Story now 2926 words; no padding to exact chapter lengths.",
     "Hook: specific cooling warning, impossible route and concern for Ruth in first 150 words. Mira's private investigation costs time; admitting uncertainty changes the team response.",
@@ -18,7 +18,12 @@
   ],
   "preview_checks": {
     "browser": "Microsoft Edge headless via Playwright",
-    "viewports": [320,390,768,1280],
+    "viewports": [
+      320,
+      390,
+      768,
+      1280
+    ],
     "library_and_nested_book_no_horizontal_overflow": true,
     "present_images_loaded": true,
     "all_46_translations_initially_closed": true,
@@ -31,10 +36,32 @@
     "640px_reflow_equivalent_to_200_percent_desktop_width": true,
     "print_css_hides_english_answers_toolbar": true,
     "runtime_errors": 0,
-    "visual_screenshots_inspected": ["390px hero", "1280px hero"],
-    "limits": "Draft only: 20 art cards currently labels without artwork; no audio player is rendered. Full page visual inspection, all artwork, actual browser zoom, complete keyboard traversal, audio speed and A4 pagination still pending. Responsive/print final review flags remain false."
+    "visual_screenshots_inspected": [
+      "390px hero",
+      "1280px hero"
+    ],
+    "limits": "Full natural audio delivery/pronunciation/join listening unavailable; remains open. Desktop 200% tested through page scaling and 640px reflow equivalent rather than a physical browser zoom setting.",
+    "final_record": "final-browser-checks.json"
   },
-  "publication_gate": "release:build correctly refused incomplete media; no dist/site publication output created",
-  "cover_review": "Downloaded and visually inspected existing 1280x720 cover source. Mira appearance, storm window, rail tracks and red notebook consistent. Landscape ratio fails the requested final portrait composition. Preserve existing source; adaptation pending.",
-  "live_verification": "Not performed; web tool could not access expected Pages URL. No deployment attempted."
+  "publication_gate": "All media files are now present. Release must still refuse while audio_listening_review is false. No publication attempted.",
+  "cover_review": "Final 1024x1536 portrait artwork adapted from existing source and visually reviewed.",
+  "live_verification": "Not performed; web tool could not access expected Pages URL. No deployment attempted.",
+  "final_art_review": "All 20 1024x768 cards inspected in chapter contact sheets; two inaccurate details repaired and inspected individually. German labels remain accessible HTML outside pixels; inflected vocabulary occurrences retained.",
+  "audio_review": {
+    "format": "MP3 44100 Hz / 128 kbps confirmed for test, five passages and final assembly",
+    "duration_seconds": 1294.8114285714285,
+    "transcription": "All five returned transcripts match normalized final passage scripts, title/introduction/headings included; no translations or study material in scripts.",
+    "technical": "Browser decoded all passages; zero clipped samples; active RMS spread about 0.77 dB. Original speech frames preserved in assembly with ~1.04-second chapter pauses.",
+    "player": "Native player loads full duration, play/seek works at beginning/all joins/end, speed selector changes actual rate to 1.25.",
+    "listening": "NOT performed. Tool explicitly reports audio input unsupported. Human final review required."
+  },
+  "print": {
+    "pages": 18,
+    "paper": "A4",
+    "path": "output/pdf/die-nachricht-um-0317.pdf",
+    "english_hidden": true,
+    "answers_hidden": true,
+    "all_46_german_paragraphs_present": true,
+    "review": "Rendered all pages; contact-sheet layout inspected and representative story, continuation, vocabulary infographic and questions pages inspected at 1100px. No clipped content. Final 18-page edition uses 12pt/1.65 story text and separate chapter picture sections."
+  }
 }

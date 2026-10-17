@@ -1,0 +1,14 @@
+{
+  "series": "Die Nachrichten von morgen",
+  "narration": {
+    "provider": "ElevenLabs connected plugin",
+    "voice_name": "Lola - Immersive Storytelling",
+    "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+    "model_id": "eleven_v4",
+    "output_format": "mp3_44100_128",
+    "language": "de",
+    "user_confirmed": "2026-10-17",
+    "policy": "Use this same voice and generation configuration for every future series recording. Do not substitute a voice, model or provider without an explicit user change. The convert API documents mp3_44100_128 as its default; verify the downloaded MP3 sample rate and bitrate.",
+    "format_reference": "https://elevenlabs.io/docs/api-reference/text-to-speech/convert"
+  }
+}

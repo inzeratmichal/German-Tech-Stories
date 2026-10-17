@@ -1,0 +1,74 @@
+{
+  "flow_id": "TRZ0PRZjlFUzTOcoeH9A",
+  "session_ids": [
+    "7l4RA1ibfa0GQ0yKWDCV",
+    "wOFmdVjNmPisKtc8Q7hw",
+    "NfOWeXHZmwe51i091B7P",
+    "6RG5cP8MpesBqLUbhDhc",
+    "FhvVWCVzitVU0Jawo4AG"
+  ],
+  "results": [
+    {
+      "success": true,
+      "node_id": "ZU7HY4yyDF7SsZruSLvR",
+      "session_id": "7l4RA1ibfa0GQ0yKWDCV",
+      "credit_costs": {
+        "h5sJ7RRjdwjQ8XUJPGep": 3857.6142
+      }
+    },
+    {
+      "success": true,
+      "node_id": "0ssgFCiHbAuneuL0OGcl",
+      "session_id": "wOFmdVjNmPisKtc8Q7hw",
+      "credit_costs": {
+        "S70sTbdNOLQCNbK3SW61": 3734.6265
+      }
+    },
+    {
+      "success": true,
+      "node_id": "nydQW5rEZt51wub9EOLV",
+      "session_id": "NfOWeXHZmwe51i091B7P",
+      "credit_costs": {
+        "Fffkrw7fK1sv1MzX1OyS": 3743.6256000000003
+      }
+    },
+    {
+      "success": true,
+      "node_id": "yw1jafp867qx1vBZNlRe",
+      "session_id": "6RG5cP8MpesBqLUbhDhc",
+      "credit_costs": {
+        "VfV2wopfAibDMbDsfD7j": 4103.5896
+      }
+    },
+    {
+      "success": true,
+      "node_id": "Z1s0OIuEgFllHvgKPubG",
+      "session_id": "FhvVWCVzitVU0Jawo4AG",
+      "credit_costs": {
+        "jkZZFtXSDwvgCHfcdI6d": 3850.6148999999996
+      }
+    }
+  ],
+  "pending": [
+    {
+      "generation_id": "h5sJ7RRjdwjQ8XUJPGep",
+      "kind": "audio"
+    },
+    {
+      "generation_id": "S70sTbdNOLQCNbK3SW61",
+      "kind": "audio"
+    },
+    {
+      "generation_id": "Fffkrw7fK1sv1MzX1OyS",
+      "kind": "audio"
+    },
+    {
+      "generation_id": "VfV2wopfAibDMbDsfD7j",
+      "kind": "audio"
+    },
+    {
+      "generation_id": "jkZZFtXSDwvgCHfcdI6d",
+      "kind": "audio"
+    }
+  ]
+}

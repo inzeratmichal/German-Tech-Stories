@@ -1,0 +1,56 @@
+{
+  "provider": "ElevenLabs connected plugin",
+  "voice_name": "Lola - Immersive Storytelling",
+  "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+  "model_id": "eleven_v4",
+  "output_format": "mp3_44100_128",
+  "assembly": "Preserved original MP3 audio frames, removed per-passage ID3/Xing/Info headers, inserted approximately one second of encoded digital silence between chapters; no speech transcoding.",
+  "chapter_pause_seconds": 1.0448979591836736,
+  "parts": [
+    {
+      "chapter": 1,
+      "file": "chapter-01.mp3",
+      "start_seconds": 0,
+      "mp3_frames": 10393,
+      "removed_info_frames": 1,
+      "sha256": "06c6af011c07c70e73b3960019ac804793fa288bbba15c2cb3fa0fe446a0056e"
+    },
+    {
+      "chapter": 2,
+      "file": "chapter-02.mp3",
+      "start_seconds": 272.5355102040816,
+      "mp3_frames": 9422,
+      "removed_info_frames": 1,
+      "sha256": "1b39afa16be8f8c8bdc0b4d2e282596ecb7c384840315ee4107556b4fbf58179"
+    },
+    {
+      "chapter": 3,
+      "file": "chapter-03.mp3",
+      "start_seconds": 519.7061224489796,
+      "mp3_frames": 9382,
+      "removed_info_frames": 1,
+      "sha256": "837f3ae653869d680c3c526bba7e40023c239a28c10138086853adc459c9d843"
+    },
+    {
+      "chapter": 4,
+      "file": "chapter-04.mp3",
+      "start_seconds": 765.8318367346939,
+      "mp3_frames": 10111,
+      "removed_info_frames": 1,
+      "sha256": "8c6099e99098152174672c9504197075958325125c51b3efc1230f1614f6e8a9"
+    },
+    {
+      "chapter": 5,
+      "file": "chapter-05.mp3",
+      "start_seconds": 1031.0008163265304,
+      "mp3_frames": 10099,
+      "removed_info_frames": 1,
+      "sha256": "3d9989a4b6b8c56ed05c76fc84af4a51617eb0d6a60c4cee93be359cd27c26cc"
+    }
+  ],
+  "duration_seconds": 1294.8114285714285,
+  "bytes": 20716979,
+  "sha256": "0bfe96ff775203ec8392cea7f0410b05df9ed69894d3a3a88adf763c2df776c5",
+  "manuscript_sha256": "8e38502b43fa1ce0c184239b4af42f2b23e3cef8e91dfe66699cde3ba2159a1a",
+  "listening_review": false
+}
