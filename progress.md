@@ -195,3 +195,5 @@ For each later checkpoint or completion, append a concise record containing the 
 - User requested removing the separate Stopp button beside each paragraph audio player. Removed markup, related JavaScript and styling; native play/pause, progress/seek and volume controls remain.
 - Updated repository guide and series settings to require only built-in audio controls, with no extra stop/reset button. Existing audio clips reused unchanged.
 - Next: deploy and verify zero extra buttons and all 46 native paragraph players on the live page. Prior listening-review status remains unchanged.
+
+- **Live verification:** Pages run 39021305896 succeeded for 4922358ef351616609d15c9fd373aa9eaee9e94f. Public page has zero extra Stopp buttons, all 46 native paragraph players, working playback and no horizontal overflow at 320/390/1280px. Guide and series settings saved. Existing audio unchanged.
