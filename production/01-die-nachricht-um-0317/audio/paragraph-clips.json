@@ -1,0 +1,423 @@
+{
+  "source": "story.mp3",
+  "source_sha256": "0bfe96ff775203ec8392cea7f0410b05df9ed69894d3a3a88adf763c2df776c5",
+  "method": "Decoded existing narration once; extracted exact paragraph PCM ranges and encoded standalone 44100 Hz mono 128 kbps MP3 clips for native players. No new TTS.",
+  "voice_id": "Ny7r2ffG0v2p3DYyFvhb",
+  "model_id": "eleven_v4",
+  "clips": [
+    {
+      "id": "intro",
+      "filename": "intro.mp3",
+      "source_start": 1.38,
+      "source_end": 26.04,
+      "duration_seconds": 24.66,
+      "bytes": 395389,
+      "sha256": "5b1876627bbc4d757aeb3cdb155c175ef54e386c431eb1c2509a50a904058f3e"
+    },
+    {
+      "id": "ch01-p01",
+      "filename": "ch01-p01.mp3",
+      "source_start": 29.86,
+      "source_end": 57.12,
+      "duration_seconds": 27.26,
+      "bytes": 436767,
+      "sha256": "c6622ccf5886d819efcbf5a3afb5689f632ef90a7e7bb545e382bf7573dc309e"
+    },
+    {
+      "id": "ch01-p02",
+      "filename": "ch01-p02.mp3",
+      "source_start": 57.3,
+      "source_end": 85.2,
+      "duration_seconds": 27.9,
+      "bytes": 447216,
+      "sha256": "d078fcae5c67f8fc40191bfe595804c43cd03e457e2e52466f9a9db761d2831c"
+    },
+    {
+      "id": "ch01-p03",
+      "filename": "ch01-p03.mp3",
+      "source_start": 85.54,
+      "source_end": 114.16,
+      "duration_seconds": 28.62,
+      "bytes": 458501,
+      "sha256": "a17af10b7f17cf64f50cea90212f70ecd8a42b805310d9fcc04ab8c71ee0c025"
+    },
+    {
+      "id": "ch01-p04",
+      "filename": "ch01-p04.mp3",
+      "source_start": 114.26,
+      "source_end": 141.46,
+      "duration_seconds": 27.2,
+      "bytes": 435931,
+      "sha256": "a589b0854070e8f7fc2d860a742924fbfa6c842714da41434a323370ddad4376"
+    },
+    {
+      "id": "ch01-p05",
+      "filename": "ch01-p05.mp3",
+      "source_start": 141.62,
+      "source_end": 165.94,
+      "duration_seconds": 24.32,
+      "bytes": 389537,
+      "sha256": "c6f1cbf6997f821c5cb1a2351358c6cc8dacfd949dafa24fa61f74b4d37ecc04"
+    },
+    {
+      "id": "ch01-p06",
+      "filename": "ch01-p06.mp3",
+      "source_start": 166.1,
+      "source_end": 190.4,
+      "duration_seconds": 24.3,
+      "bytes": 389537,
+      "sha256": "011a456c68aa263d4c676ffff97f3914dba7d97ef6d94850c5567cb21f333425"
+    },
+    {
+      "id": "ch01-p07",
+      "filename": "ch01-p07.mp3",
+      "source_start": 190.5,
+      "source_end": 220,
+      "duration_seconds": 29.5,
+      "bytes": 472711,
+      "sha256": "54f0d72062f37f9e6382a5c1ffc586d60c0d8089b7910da7f1f8b01c6c4912ac"
+    },
+    {
+      "id": "ch01-p08",
+      "filename": "ch01-p08.mp3",
+      "source_start": 220.34,
+      "source_end": 244.96,
+      "duration_seconds": 24.62,
+      "bytes": 394553,
+      "sha256": "e0e74d0e3264b3076033d68d8028e2493646d86a117bfdebed7a51ad44423f40"
+    },
+    {
+      "id": "ch01-p09",
+      "filename": "ch01-p09.mp3",
+      "source_start": 245.38,
+      "source_end": 271.491,
+      "duration_seconds": 26.110997732426306,
+      "bytes": 418377,
+      "sha256": "992fe43de6df02e034424ebc920c18b15785442b6dd1a35639bebc2f6a3ec032"
+    },
+    {
+      "id": "ch02-p01",
+      "filename": "ch02-p01.mp3",
+      "source_start": 276.636,
+      "source_end": 301.016,
+      "duration_seconds": 24.38,
+      "bytes": 390791,
+      "sha256": "0f29c4b824e026846d796046ef80fea309755e526845c2e93f75b8de256e8efc"
+    },
+    {
+      "id": "ch02-p02",
+      "filename": "ch02-p02.mp3",
+      "source_start": 301.356,
+      "source_end": 326.776,
+      "duration_seconds": 25.42,
+      "bytes": 407510,
+      "sha256": "5d6ab3b790c1c48c76c5249c764b3852022a06380da6a5612e0ba581737d037e"
+    },
+    {
+      "id": "ch02-p03",
+      "filename": "ch02-p03.mp3",
+      "source_start": 327.196,
+      "source_end": 352.316,
+      "duration_seconds": 25.12,
+      "bytes": 402494,
+      "sha256": "ee062a665b8195cd8b273429a53aec2826defb5ee6db02e30e96a93ec33011b1"
+    },
+    {
+      "id": "ch02-p04",
+      "filename": "ch02-p04.mp3",
+      "source_start": 352.476,
+      "source_end": 380.016,
+      "duration_seconds": 27.54,
+      "bytes": 441364,
+      "sha256": "85e236344a36ded35b3139586cfc0cc3c1ee5137713b32e89b6e0e89bf29fa02"
+    },
+    {
+      "id": "ch02-p05",
+      "filename": "ch02-p05.mp3",
+      "source_start": 380.236,
+      "source_end": 409.376,
+      "duration_seconds": 29.14,
+      "bytes": 466860,
+      "sha256": "6656048cfe1e8639ecbd160d2e6829e2a1abe1460d379455a4044cb414489b14"
+    },
+    {
+      "id": "ch02-p06",
+      "filename": "ch02-p06.mp3",
+      "source_start": 409.596,
+      "source_end": 439.096,
+      "duration_seconds": 29.5,
+      "bytes": 472711,
+      "sha256": "5185fd123b8ff75b9a110f58e833fb50d4826f5d25e8448e37af62d1072d146a"
+    },
+    {
+      "id": "ch02-p07",
+      "filename": "ch02-p07.mp3",
+      "source_start": 439.196,
+      "source_end": 464.676,
+      "duration_seconds": 25.48,
+      "bytes": 408346,
+      "sha256": "22fbc92d545a203b145cd7297836649f1aefce175e6005e6b4922107d392afc4"
+    },
+    {
+      "id": "ch02-p08",
+      "filename": "ch02-p08.mp3",
+      "source_start": 464.716,
+      "source_end": 491.036,
+      "duration_seconds": 26.32,
+      "bytes": 421720,
+      "sha256": "de9c848eb0949e36c8190bf83269b675677f3bde889c2df708df4b2b6a64ea6e"
+    },
+    {
+      "id": "ch02-p09",
+      "filename": "ch02-p09.mp3",
+      "source_start": 491.196,
+      "source_end": 518.661,
+      "duration_seconds": 27.464988662131518,
+      "bytes": 440111,
+      "sha256": "c8abd050e2bc2255f50dd641d37a51ea08242409d6f6f8ed1ce74d9aa48a1903"
+    },
+    {
+      "id": "ch03-p01",
+      "filename": "ch03-p01.mp3",
+      "source_start": 522.926,
+      "source_end": 547.226,
+      "duration_seconds": 24.3,
+      "bytes": 389537,
+      "sha256": "e6b95c1cff251f5846dafa78d3d7c3b97a9818b9e120607b9080cd2c03b7797f"
+    },
+    {
+      "id": "ch03-p02",
+      "filename": "ch03-p02.mp3",
+      "source_start": 547.486,
+      "source_end": 575.666,
+      "duration_seconds": 28.18,
+      "bytes": 451395,
+      "sha256": "c359c50c37b13f5a1f4c79ccf9cb8d3c44ff821ff7526e3c6a0c543e04d0c8e7"
+    },
+    {
+      "id": "ch03-p03",
+      "filename": "ch03-p03.mp3",
+      "source_start": 575.646,
+      "source_end": 605.046,
+      "duration_seconds": 29.4,
+      "bytes": 471040,
+      "sha256": "e2908eb16a19368eedc80768ce84527e9611af774380be9cb12179a9fbc0f38d"
+    },
+    {
+      "id": "ch03-p04",
+      "filename": "ch03-p04.mp3",
+      "source_start": 605.166,
+      "source_end": 632.866,
+      "duration_seconds": 27.7,
+      "bytes": 443872,
+      "sha256": "d8c8e0e78757dcead29ecbdd5281307c857bac520238462548868ac224c88654"
+    },
+    {
+      "id": "ch03-p05",
+      "filename": "ch03-p05.mp3",
+      "source_start": 633.246,
+      "source_end": 659.246,
+      "duration_seconds": 26.0,
+      "bytes": 416705,
+      "sha256": "019fa2932f9b3214c08ef5ac9dc832e8f4cf90fc0d0ca5649163b07c01187787"
+    },
+    {
+      "id": "ch03-p06",
+      "filename": "ch03-p06.mp3",
+      "source_start": 659.326,
+      "source_end": 685.026,
+      "duration_seconds": 25.7,
+      "bytes": 411689,
+      "sha256": "52cbb74df4687bbddbe27a5680d59bb48a16c11fe211c9fade4b7177eac442b1"
+    },
+    {
+      "id": "ch03-p07",
+      "filename": "ch03-p07.mp3",
+      "source_start": 685.006,
+      "source_end": 708.906,
+      "duration_seconds": 23.9,
+      "bytes": 382850,
+      "sha256": "27dcfb94430face181e90fd230380bf3d5110abd4d7fa35a31a5355a0a288d54"
+    },
+    {
+      "id": "ch03-p08",
+      "filename": "ch03-p08.mp3",
+      "source_start": 709.086,
+      "source_end": 735.886,
+      "duration_seconds": 26.8,
+      "bytes": 429244,
+      "sha256": "7cfdcb0818f3c105b76c15433aa8409e588c3604b9fd2a38e265ff91d2916d25"
+    },
+    {
+      "id": "ch03-p09",
+      "filename": "ch03-p09.mp3",
+      "source_start": 735.966,
+      "source_end": 764.787,
+      "duration_seconds": 28.820997732426303,
+      "bytes": 461844,
+      "sha256": "a74c1b598bee306f98e833b63c38f65bcd1a5ff8f5f38db1dd8e8a6082e4435b"
+    },
+    {
+      "id": "ch04-p01",
+      "filename": "ch04-p01.mp3",
+      "source_start": 769.692,
+      "source_end": 799.812,
+      "duration_seconds": 30.12,
+      "bytes": 482742,
+      "sha256": "48aa8d6b9684f61d69cc049171a3b4525bdfb3a88ea198fd3e3067ac7a812cf1"
+    },
+    {
+      "id": "ch04-p02",
+      "filename": "ch04-p02.mp3",
+      "source_start": 799.932,
+      "source_end": 830.332,
+      "duration_seconds": 30.4,
+      "bytes": 486922,
+      "sha256": "0a60dead537ae6e71371175d2ddb716e5727fb94068b6c2328a517e5c5c93193"
+    },
+    {
+      "id": "ch04-p03",
+      "filename": "ch04-p03.mp3",
+      "source_start": 830.492,
+      "source_end": 858.812,
+      "duration_seconds": 28.32,
+      "bytes": 453903,
+      "sha256": "2d7e3308ed0ec8e3b1db0e60204b3cbbca3d16367e9484aa622af9e22394fa08"
+    },
+    {
+      "id": "ch04-p04",
+      "filename": "ch04-p04.mp3",
+      "source_start": 858.772,
+      "source_end": 886.792,
+      "duration_seconds": 28.02,
+      "bytes": 448888,
+      "sha256": "9dc1d75582884aa54de9fddb27ea0d26a47dadfc34773dd3fb95e893940aafca"
+    },
+    {
+      "id": "ch04-p05",
+      "filename": "ch04-p05.mp3",
+      "source_start": 887.132,
+      "source_end": 913.132,
+      "duration_seconds": 26.0,
+      "bytes": 416705,
+      "sha256": "25c3046d301e2bbf1bfc87d16382e38498be5199e65f9eab7551628023e8edad"
+    },
+    {
+      "id": "ch04-p06",
+      "filename": "ch04-p06.mp3",
+      "source_start": 913.292,
+      "source_end": 941.112,
+      "duration_seconds": 27.82,
+      "bytes": 445544,
+      "sha256": "257bc1e7015f35f08d4f08a4554c330979d77553a6c6629ebdcd1d8d5eefe61d"
+    },
+    {
+      "id": "ch04-p07",
+      "filename": "ch04-p07.mp3",
+      "source_start": 941.372,
+      "source_end": 970.932,
+      "duration_seconds": 29.56,
+      "bytes": 473547,
+      "sha256": "4d9c1979c406ae6d00cb62a83d3c8dbba2611d8fd60fa5fc9380553d5034a7df"
+    },
+    {
+      "id": "ch04-p08",
+      "filename": "ch04-p08.mp3",
+      "source_start": 971.052,
+      "source_end": 1002.072,
+      "duration_seconds": 31.02,
+      "bytes": 496953,
+      "sha256": "fe515e8b211160bc79f70654f4e1b6d1add282b938f9b2eea076484029ceff0c"
+    },
+    {
+      "id": "ch04-p09",
+      "filename": "ch04-p09.mp3",
+      "source_start": 1002.332,
+      "source_end": 1029.956,
+      "duration_seconds": 27.624013605442176,
+      "bytes": 442618,
+      "sha256": "566adf7895ef0af38853b10ab426f0889eb3af4bc34b53a2f1ccad0963c55143"
+    },
+    {
+      "id": "ch05-p01",
+      "filename": "ch05-p01.mp3",
+      "source_start": 1034.621,
+      "source_end": 1059.921,
+      "duration_seconds": 25.3,
+      "bytes": 405420,
+      "sha256": "ac4affb9e32759bfa40c3173f4a1100ce716bdf71ec76556893c6a6c5daeb0e0"
+    },
+    {
+      "id": "ch05-p02",
+      "filename": "ch05-p02.mp3",
+      "source_start": 1060.381,
+      "source_end": 1089.881,
+      "duration_seconds": 29.5,
+      "bytes": 472711,
+      "sha256": "6058bc51c1eb65f6fa392ba389b14eefb768955bd78a1def0c3c520c9f837875"
+    },
+    {
+      "id": "ch05-p03",
+      "filename": "ch05-p03.mp3",
+      "source_start": 1090.301,
+      "source_end": 1125.061,
+      "duration_seconds": 34.76,
+      "bytes": 556721,
+      "sha256": "c00808abdb5ed6a39c068128bcf602084059ea695b22164ec5f4826cb64707d7"
+    },
+    {
+      "id": "ch05-p04",
+      "filename": "ch05-p04.mp3",
+      "source_start": 1125.261,
+      "source_end": 1155.161,
+      "duration_seconds": 29.9,
+      "bytes": 478981,
+      "sha256": "a8e237e593fdd50f671dfd112cad0781aa3e28ee8470fbf9ee43df1b9b003f92"
+    },
+    {
+      "id": "ch05-p05",
+      "filename": "ch05-p05.mp3",
+      "source_start": 1155.661,
+      "source_end": 1182.121,
+      "duration_seconds": 26.46,
+      "bytes": 423810,
+      "sha256": "e82831a0ea755ceee8cc30eaacdb35b1181efe1014843668ffde818aac0ba5c0"
+    },
+    {
+      "id": "ch05-p06",
+      "filename": "ch05-p06.mp3",
+      "source_start": 1182.381,
+      "source_end": 1207.921,
+      "duration_seconds": 25.54,
+      "bytes": 409182,
+      "sha256": "57f75b45c4a206a9f1832cd539cc7f1730c8a7a285dac12dd3c02a6c601349d2"
+    },
+    {
+      "id": "ch05-p07",
+      "filename": "ch05-p07.mp3",
+      "source_start": 1208.381,
+      "source_end": 1236.921,
+      "duration_seconds": 28.54,
+      "bytes": 457247,
+      "sha256": "ab0e3fa58890d036143d95ee14a1c51fd43232412751773ba7ccf86f5e6ab6dd"
+    },
+    {
+      "id": "ch05-p08",
+      "filename": "ch05-p08.mp3",
+      "source_start": 1237.341,
+      "source_end": 1264.041,
+      "duration_seconds": 26.7,
+      "bytes": 427990,
+      "sha256": "d6738807c04a27666d8ae12921e3c10227deee0b11707f68ebec049d98ae95e4"
+    },
+    {
+      "id": "ch05-p09",
+      "filename": "ch05-p09.mp3",
+      "source_start": 1264.461,
+      "source_end": 1294.811,
+      "duration_seconds": 30.35,
+      "bytes": 486086,
+      "sha256": "33854fb0355f218d2211c9651ca161e777c54fcda1f5c388662efca3b692e0b7"
+    }
+  ]
+}

@@ -151,7 +151,7 @@ User revision, 2026-10-17: illustrations should feel like part of the book, with
 
 ## 7. ElevenLabs narration
 
-User revision, 2026-10-17: provide an audio-play option below every German story paragraph, including the introduction, while retaining the complete recording at the end. Reuse the existing Lola narration with verified paragraph boundaries when possible. Only one audio stream plays at a time; paragraph playback stops at its end, supports pause/resume, and respects playback speed. Keep controls accessible, hide them in print, and keep core reading usable without JavaScript. Do not regenerate narration merely to add these controls.
+User revision, 2026-10-17: provide a native audio player below every German story paragraph, including the introduction, while retaining the complete recording at the end. Reuse the existing Lola narration with verified paragraph boundaries when possible. Each paragraph player must match the final recording’s native controls: play/pause, seekable progress bar with paragraph-relative elapsed time/duration, volume/mute where supported by the browser, and an accessible stop/reset control. Use standalone paragraph clips derived from the existing narration so seeking and duration stay within that paragraph. Only one audio stream plays at a time; paragraph playback ends naturally at its end, supports pause/resume, and respects playback speed. Keep controls accessible, hide them in print, and keep core reading usable without JavaScript. Do not regenerate narration merely to add these controls.
 
 
 Use the connected ElevenLabs plugin. The user has selected:
@@ -239,7 +239,7 @@ Default to one scrolling HTML page per book with stable chapter anchors. Keep ac
 1. **Toolbar:** library link, book identity, contents menu, and a jump to the audio section. Include a thin reading-progress indicator that does not cover text.
 2. **Cover:** generated artwork, series/book number, German title, a short hook/introduction with hidden English, B1/B2 label, and “Lesen”/“Anhören” links. Two columns on desktop, stacked on phones.
 3. **Contents:** links to all five chapters, vocabulary, questions, and audio. A compact menu may replace the full list on phones.
-4. **Story:** chapter number/title, optional clearly marked viewpoint, then paragraphs with independent English toggles and a German paragraph-play button. Insert the multi-word labelled scenes among the related paragraphs. No separate “Wörter im Bild” category.
+4. **Story:** chapter number/title, optional clearly marked viewpoint, then paragraphs with independent English toggles and a native German paragraph audio player. Insert the multi-word labelled scenes among the related paragraphs. No separate “Wörter im Bild” category.
 5. **Wortschatz auf einen Blick:** the 20 German entries and English meanings in a clean list or table; use two columns only where readable.
 6. **Fragen zum Text:** three radio-button multiple-choice groups and two labeled text areas, followed by “Antworten anzeigen”. No account or server submission is required. Do not mark reasonable written alternatives wrong automatically.
 7. **Die Geschichte hören:** one full-story MP3 player with play/pause, seeking, elapsed time/duration, and a labeled playback-speed selector, for example 0.75×, 1×, 1.25×, and 1.5×. No autoplay. Use the existing player's styling where appropriate.

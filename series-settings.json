@@ -20,6 +20,7 @@
     "default_scenes_per_book": 5,
     "target_words_per_scene": 4,
     "distinct_target_words_per_book": 20,
-    "separate_woerter_im_bild_section": false
+    "separate_woerter_im_bild_section": false,
+    "paragraph_audio_controls": "Native audio controls under every story paragraph: play/pause, progress/seek, relative time/duration, browser volume/mute, stop/reset. Standalone clips from existing Lola narration; one player at a time; shared speed and volume; hidden in print."
   }
 }

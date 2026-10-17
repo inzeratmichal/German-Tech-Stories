@@ -43,3 +43,7 @@ The repository guide and series settings now require contextual illustrations in
 ## Public review edition
 
 At the user’s request, the reader is now published and linked from the public library. Public index, six images, audio hash/playback, paragraph controls and responsive layouts verified; see live-checks.json. Pages deployment 39020060683 succeeded for commit 7d49873e0904a6024c65b48f39c3704e6a86edfd. Earlier unpublished status descriptions above are historical. Human listening review remains outstanding; the book is not marked completed.
+
+## Native paragraph controls
+
+Each paragraph now uses its own native audio element with paragraph-relative progress, duration, seeking, browser volume/mute and play/pause, plus Stopp/reset. Derived clips and hashes are in audio/paragraphs/ and audio/paragraph-clips.json. Full original Lola recording is unchanged. Shared speed/volume and one-stream coordination apply with JavaScript; native controls remain usable without it. Existing button-only test records are historical; native-controls-checks.json is the current control verification.

@@ -175,3 +175,11 @@ For each later checkpoint or completion, append a concise record containing the 
 - **Deployment:** Pages run 39020060683 succeeded for commit 7d49873e0904a6024c65b48f39c3704e6a86edfd.
 - **Live checks:** actual index click reaches reader; all six images, CSS, JavaScript and full MP3 return 200. Audio SHA-256 matches original narration. All 46 paragraph buttons are visible, five inline scenes present; beginning/middle/end paragraph playback, 1.5x stopping, translation toggle and four responsive widths pass with no runtime errors. Evidence: production/01-die-nachricht-um-0317/live-checks.json.
 - **Status:** published review edition; not marked completed. Human listening remains outstanding and audio_listening_review remains false. No paid generation or source changes. Exact next action: review full Lola narration for natural delivery, pronunciation and joins; repair only specific defects, then record final completion.
+
+### 2026-10-17 — Native paragraph player update
+
+- User requested full audio controls under each paragraph matching the final player. Replaced 46 buttons with 46 native audio players, each with its own paragraph-relative progress bar, seek, duration, play/pause and browser volume/mute controls; added accessible Stopp/reset buttons.
+- Derived standalone 44.1kHz/128kbps MP3 clips from the existing Lola narration; no paid generation, full recording unchanged. Clip hashes/ranges/settings in audio/paragraph-clips.json; reproducible encoder in tools/encode-paragraph-audio.py.
+- Coordination permits one active stream, including the full story; shares volume/mute and playback speed. Native players work without JavaScript. Print hides paragraph players. Guide and series settings updated for future books.
+- Local checks pass for all 46 clip loads, playback and durations; pause/resume, single stream, mute/volume, seeking, 1.5x speed, natural paragraph ending, stop/reset, full-story switching, no-JS controls, print hiding and four responsive widths. Desktop/mobile screenshots inspected. Evidence: native-controls-checks.json.
+- Next: deploy this reader update, verify live native players, and retain outstanding human narration listening review. Book completion remains unclaimed.

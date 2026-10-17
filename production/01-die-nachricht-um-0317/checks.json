@@ -56,7 +56,7 @@
     "technical": "Browser decoded all passages; zero clipped samples; active RMS spread about 0.77 dB. Original speech frames preserved in assembly with ~1.04-second chapter pauses.",
     "player": "Native player loads full duration, play/seek works at beginning/all joins/end, speed selector changes actual rate to 1.25.",
     "listening": "NOT performed. Tool explicitly reports audio input unsupported. Human final review required.",
-    "paragraph_controls": "All 46 buttons seek to their assigned range; switching, keyboard play, pause/resume, 1.5x boundary stop, and return to full native player pass. Reuses unchanged Lola MP3; automated timing/playback checks do not establish listening quality."
+    "paragraph_controls": "46 standalone paragraph clips with native audio controls and stop/reset; native-controls-checks.json verifies every clip, duration, seek, volume/mute, shared speed and exclusivity, natural end, reset, no-JS, print and responsive layouts. Screenshots at 390/1280px inspected."
   },
   "print": {
     "pages": 14,

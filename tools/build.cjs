@@ -53,13 +53,17 @@ const coverFile=hasCover?'cover.webp':'cover-source.png';
 if(fs.existsSync(path.join(assetDir,coverFile))) fs.copyFileSync(path.join(assetDir,coverFile),path.join(bookDir,'assets',coverFile));
 for(const name of illustrations.map(scene=>scene.filename)) if(fs.existsSync(path.join(assetDir,name))) fs.copyFileSync(path.join(assetDir,name),path.join(bookDir,'assets',name));
 const hasAudio=fs.existsSync(path.join(source,'audio/story.mp3'));
+const clipManifest=read('audio/paragraph-clips.json');
+assert(clipManifest.clips.length===pairs.length,'Every paragraph needs a standalone audio clip');
+for(const clip of clipManifest.clips){const src=path.join(source,'audio/paragraphs',clip.filename);assert(fs.existsSync(src),'Missing paragraph clip '+clip.filename);assert(crypto.createHash('sha256').update(fs.readFileSync(src)).digest('hex')===clip.sha256,'Paragraph clip hash mismatch');}
+fs.cpSync(path.join(source,'audio/paragraphs'),path.join(bookDir,'assets/paragraphs'),{recursive:true});
 if(hasAudio) fs.copyFileSync(path.join(source,'audio/story.mp3'),path.join(bookDir,'assets/story.mp3'));
 let pairId=0;
 const pair = (p,rangeId=null) => {
   const id=`en-${++pairId}`,range=rangeId?paragraphRanges.get(rangeId):null;
   if(rangeId) assert(range,'Missing paragraph audio range '+rangeId);
-  const audioButton=range&&hasAudio?`<button type="button" class="paragraph-play" data-start="${range.start}" data-end="${range.end}" aria-pressed="false" aria-label="${rangeId==='intro'?'Einleitung anhören':`Kapitel ${range.chapter}, Absatz ${range.paragraph} anhören`}" hidden><span aria-hidden="true">▶</span> <span class="paragraph-play-label">${rangeId==='intro'?'Einleitung anhören':'Absatz anhören'}</span></button>`:'';
-  return `<div class="paragraph"${rangeId?` id="${rangeId}"`:''}><p>${e(p.de)}</p>${audioButton}<details class="translation" id="${id}"><summary><span class="show">Show English</span><span class="hide">Hide English</span></summary><p lang="en">${e(p.en)}</p></details></div>`;
+  const audioPlayer=range&&hasAudio?`<div class="paragraph-audio"><audio class="paragraph-player" controls preload="none" aria-label="${rangeId==='intro'?'Einleitung anhören':`Kapitel ${range.chapter}, Absatz ${range.paragraph} anhören`}" src="assets/paragraphs/${rangeId}.mp3">Ihr Browser unterstützt diesen Audioplayer nicht.</audio><button type="button" class="audio-stop" aria-label="Wiedergabe dieses Absatzes stoppen und zurücksetzen" hidden>Stopp</button></div>`:'';
+  return `<div class="paragraph"${rangeId?` id="${rangeId}"`:''}><p>${e(p.de)}</p>${audioPlayer}<details class="translation" id="${id}"><summary><span class="show">Show English</span><span class="hide">Hide English</span></summary><p lang="en">${e(p.en)}</p></details></div>`;
 };
 const contents=story.chapters.map((c,i)=>`<a href="#chapter-${i+1}">${i+1}. ${e(c.title)}</a>`).join('')+'<a href="#vocabulary">Wortschatz</a><a href="#questions">Fragen</a><a href="#audio">Anhören</a>';
 const cover=(prefix='')=>`<div class="cover-art${hasCover?' portrait':' landscape'}"><img src="${prefix}assets/${coverFile}" alt="Mira mit rotem Notizbuch vor dem verregneten Fenster der Nachtwache; draußen liegen die Gleise im Gewitter." width="${hasCover?1024:1280}" height="${hasCover?1536:720}"></div>`;
