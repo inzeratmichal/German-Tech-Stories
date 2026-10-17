@@ -15,7 +15,7 @@ Tracker prepared: **2026-10-17**
 
 ## Next action
 
-**User requested Book 01 on the public index. Deploy the complete reader as a review edition, verify its public links/media, then finish the outstanding human listening review before marking the book completed.**
+**Book 01 is live and linked from the public index. Public assets and interactions verified. Finish the outstanding human listening review before marking the book completed.**
 
 If the audit confirms there is no existing work, begin **Book 01 — Die Nachricht um 03:17**. Reuse existing text, illustrations, and audio wherever suitable. Do not restart completed work or duplicate paid generations.
 
@@ -168,3 +168,10 @@ For each later checkpoint or completion, append a concise record containing the 
 - User explicitly requested the book appear on the public index after being informed of the outstanding listening review. Publishing the existing complete reader at books/01-die-nachricht-um-0317/ and linking it from the index.
 - A separate --review-edition option permits this requested publication while preserving audio_listening_review=false and all other content/review guards. Default final-release checks still require listening review. No completion claimed.
 - Next action: verify successful Pages deployment, public index link, all images, full audio and paragraph playback; record live evidence, then complete human listening review. Existing sources and media reused; no paid generation.
+
+### 2026-10-17 — Public index and reader verified
+
+- **Published:** https://inzeratmichal.github.io/German-Tech-Stories/index.html now has a functioning Lesen link to https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/index.html .
+- **Deployment:** Pages run 39020060683 succeeded for commit 7d49873e0904a6024c65b48f39c3704e6a86edfd.
+- **Live checks:** actual index click reaches reader; all six images, CSS, JavaScript and full MP3 return 200. Audio SHA-256 matches original narration. All 46 paragraph buttons are visible, five inline scenes present; beginning/middle/end paragraph playback, 1.5x stopping, translation toggle and four responsive widths pass with no runtime errors. Evidence: production/01-die-nachricht-um-0317/live-checks.json.
+- **Status:** published review edition; not marked completed. Human listening remains outstanding and audio_listening_review remains false. No paid generation or source changes. Exact next action: review full Lola narration for natural delivery, pronunciation and joins; repair only specific defects, then record final completion.

@@ -45,9 +45,9 @@
     "limits": "Full natural audio delivery/pronunciation/join listening unavailable; remains open. Desktop 200% tested through page scaling and 640px reflow equivalent rather than a physical browser zoom setting.",
     "final_record": "final-browser-checks.json"
   },
-  "publication_gate": "All media files are now present. Release must still refuse while audio_listening_review is false. No publication attempted.",
+  "publication_gate": "Published as review edition at explicit user request; default completion guard still requires audio_listening_review.",
   "cover_review": "Final 1024x1536 portrait artwork adapted from existing source and visually reviewed.",
-  "live_verification": "Homepage root and index.html return HTTP 200; cover returns 200 with expected hash. Production plan returns 404. Homepage deployment run 39017661661 succeeded for commit f6f6f1500614c1bc3f9c76843923a673baca4bfb. Book itself remains unpublished, pending listening review.",
+  "live_verification": "Pages run 39020060683 succeeded for 7d49873e0904a6024c65b48f39c3704e6a86edfd. Public index link, six images, CSS/JS, complete MP3, paragraph controls and responsive layouts verified; see live-checks.json. Human listening remains outstanding.",
   "final_art_review": "Five actual inline scenes inspected individually. Four embedded German labels each, twenty distinct target words. Corrected clock, cooling plan, Ruth identity and times. Original twenty cards retained as archive. Mobile 390px and desktop 1280px screenshots inspected; image links open full resolution.",
   "audio_review": {
     "format": "MP3 44100 Hz / 128 kbps confirmed for test, five passages and final assembly",

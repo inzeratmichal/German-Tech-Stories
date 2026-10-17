@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-17",
+  "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/index.html",
+  "index_link_verified": true,
+  "paragraph_buttons": 46,
+  "inline_scenes": 5,
+  "images": 6,
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    }
+  ],
+  "audio": {
+    "duration": 1294.811188,
+    "paragraph_stop": true
+  },
+  "translation": true,
+  "runtime_errors": [],
+  "assets": [
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/assets/css/reader.css",
+      "status": 200,
+      "bytes": 9559,
+      "sha256": "683c80b1cd4e9057b2f7908ce7d5c108bc89411d5a1bf93cc9b4a8541fec1d84"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/assets/js/reader.js",
+      "status": 200,
+      "bytes": 4204,
+      "sha256": "f303ef4178a6b1a91ab4d0412a03f9550faf1113f45536346e544f652ae89cc8"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/cover.webp",
+      "status": 200,
+      "bytes": 198662,
+      "sha256": "dbff115f41fc590137d356fe33ee234cccd1ca73e764b54312607b4d306614e6"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/ch01-scene.webp",
+      "status": 200,
+      "bytes": 685282,
+      "sha256": "0351865611d1f14e7a8171b7235a860bd08f06a255e59463d3323368e91d3e5b"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/ch02-scene.webp",
+      "status": 200,
+      "bytes": 649362,
+      "sha256": "700d8f5f5a7c20330b2db250d1efa85430284cdbe33db9056ee57920eec8b7dc"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/ch03-scene.webp",
+      "status": 200,
+      "bytes": 699318,
+      "sha256": "b0829f1f6d294d1c14f59b0990c92bb2800e1ee4a50a3c2b8864ba13c1a44ecb"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/ch04-scene.webp",
+      "status": 200,
+      "bytes": 653934,
+      "sha256": "371dd87700527a67ace96fa01ed0bd5d954f7a49bd2a524eb71e04300b3e6770"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/ch05-scene.webp",
+      "status": 200,
+      "bytes": 743224,
+      "sha256": "f57b0b1e8611deda5f84edabf0904017677ef12855e671e83f727aff07e0d0f4"
+    },
+    {
+      "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/assets/story.mp3",
+      "status": 200,
+      "bytes": 20716979,
+      "sha256": "0bfe96ff775203ec8392cea7f0410b05df9ed69894d3a3a88adf763c2df776c5"
+    }
+  ]
+}

@@ -39,3 +39,7 @@ Original generation PNGs and individual narration passages are preserved locally
 ## Reader revision — 2026-10-17
 
 The repository guide and series settings now require contextual illustrations inside narrative paragraphs, multiple German labels in each image, and no separate Wörter im Bild category. Paragraph playback reuses the existing full recording; one stream plays at a time, stops at the paragraph boundary, and supports pause/resume and shared speed. The complete native player remains at the end. Final browser evidence covers all 46 buttons and five inline scenes.
+
+## Public review edition
+
+At the user’s request, the reader is now published and linked from the public library. Public index, six images, audio hash/playback, paragraph controls and responsive layouts verified; see live-checks.json. Pages deployment 39020060683 succeeded for commit 7d49873e0904a6024c65b48f39c3704e6a86edfd. Earlier unpublished status descriptions above are historical. Human listening review remains outstanding; the book is not marked completed.
