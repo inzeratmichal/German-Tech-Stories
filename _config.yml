@@ -1,0 +1,13 @@
+# Existing GitHub Pages branch publishing builds this repository root.
+# Keep production sources and unfinished reader material out of the public site.
+exclude:
+  - production
+  - template
+  - tools
+  - output
+  - books.md
+  - progress.md
+  - continuity.md
+  - GERMAN_TECH_STORIES_GUIDE.md
+  - package.json
+  - series-settings.json
