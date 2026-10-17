@@ -10,7 +10,8 @@ const learn = read('learning.json');
 const illustrations = read('inline-illustrations.json').jobs;
 const paragraphAudio = read('audio/paragraphs.json');
 const paragraphRanges = new Map(paragraphAudio.ranges.map(range => [range.id,range]));
-const release = process.argv.includes('--release');
+const reviewEdition = process.argv.includes('--review-edition');
+const release = process.argv.includes('--release') || reviewEdition;
 const e = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const words = text => text.trim().split(/\s+/u).length;
 const pairs = [story.introduction, ...story.chapters.flatMap(c => c.paragraphs)];
@@ -35,7 +36,10 @@ if(release){
   assert(fs.existsSync(path.join(assetDir,'cover.webp')),'Publication blocked: final portrait cover required');
   assert(fs.existsSync(path.join(source,'audio','story.mp3')),'Publication blocked: full MP3 required');
   assert(checks.manuscript_sha256===manuscriptHash,'Publication blocked: checks must match current manuscript');
-  for(const flag of ['story_review','translations_review','artwork_visual_review','audio_configuration_verified','audio_listening_review','paragraph_audio_review','responsive_keyboard_review','print_review']) assert(checks[flag]===true,`Publication blocked: ${flag}`);
+  for(const flag of ['story_review','translations_review','artwork_visual_review','audio_configuration_verified','audio_listening_review','paragraph_audio_review','responsive_keyboard_review','print_review']) {
+    if(reviewEdition && flag==='audio_listening_review') continue;
+    assert(checks[flag]===true,`Publication blocked: ${flag}`);
+  }
 }
 const output=path.join(root,release?'dist':'.preview/site');
 const bookDir=path.join(output,'books',slug);
@@ -74,6 +78,6 @@ const narration=[story.title,story.introduction.de,...story.chapters.flatMap((c,
 fs.writeFileSync(path.join(source,'narration.txt'),narration);
 const markdown=`# ${story.title}\n\nDie Nachrichten von morgen · Buch 01\n\n${story.introduction.de}\n\n${story.chapters.map((c,i)=>`## ${i+1}. ${c.title}\n\n${c.paragraphs.map(p=>p.de).join('\n\n')}`).join('\n\n')}\n`;
 fs.writeFileSync(path.join(source,'manuscript.de.md'),markdown);
-const report={mode:release?'release':'unpublished_preview',story_words:pairs.reduce((n,p)=>n+words(p.de),0),words_by_chapter:story.chapters.map(c=>c.paragraphs.reduce((n,p)=>n+words(p.de),0)),paragraph_pairs:pairs.length,vocabulary_entries:learn.vocabulary.length,inline_scenes:illustrations.length,paragraph_audio_controls:paragraphRanges.size,missing_illustrations:missingArt,final_cover_present:hasCover,full_audio_present:hasAudio,manuscript_sha256:manuscriptHash};
+const report={mode:reviewEdition?'published_review_edition':release?'release':'unpublished_preview',story_words:pairs.reduce((n,p)=>n+words(p.de),0),words_by_chapter:story.chapters.map(c=>c.paragraphs.reduce((n,p)=>n+words(p.de),0)),paragraph_pairs:pairs.length,vocabulary_entries:learn.vocabulary.length,inline_scenes:illustrations.length,paragraph_audio_controls:paragraphRanges.size,missing_illustrations:missingArt,final_cover_present:hasCover,full_audio_present:hasAudio,manuscript_sha256:manuscriptHash};
 fs.writeFileSync(path.join(source,'build-report.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));

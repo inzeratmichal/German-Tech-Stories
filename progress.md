@@ -15,7 +15,7 @@ Tracker prepared: **2026-10-17**
 
 ## Next action
 
-**Book 01 media and reader are ready for human listening review. Homepage is live. Review the full Lola recording, then publish the book through the guarded existing Pages workflow.**
+**User requested Book 01 on the public index. Deploy the complete reader as a review edition, verify its public links/media, then finish the outstanding human listening review before marking the book completed.**
 
 If the audit confirms there is no existing work, begin **Book 01 — Die Nachricht um 03:17**. Reuse existing text, illustrations, and audio wherever suitable. Do not restart completed work or duplicate paid generations.
 
@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | in_progress | 2026-10-17 reader revision checkpoint | — | — |
+| 01 | Die Nachricht um 03:17 | published_unverified | 2026-10-17 reader revision checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -162,3 +162,9 @@ For each later checkpoint or completion, append a concise record containing the 
 - **Future policy:** repository GERMAN_TECH_STORIES_GUIDE.md sections 6–8 and series-settings.json now specify integrated multi-word images and paragraph audio. Synced sources untouched.
 - **Checks:** all 46 seek controls, pause/resume, switching, keyboard activation, speed and paragraph boundary stop pass; full native playback retained. Six images load at 320/390/768/1280px without overflow; screenshots inspected. Native translations/no-JS reading remain functional. Revised 14-page German PDF rendered and visually inspected; English, answers and audio buttons hidden. Narration hash unchanged.
 - **Status/next:** unpublished preview updated at http://127.0.0.1:8765/books/01-die-nachricht-um-0317/ . Full human narration listening still outstanding because agent audio input is unsupported. Finish that review, repair only identified defects, then run guarded publication and verify live assets. No book completion claimed.
+
+### 2026-10-17 — Public index publication requested
+
+- User explicitly requested the book appear on the public index after being informed of the outstanding listening review. Publishing the existing complete reader at books/01-die-nachricht-um-0317/ and linking it from the index.
+- A separate --review-edition option permits this requested publication while preserving audio_listening_review=false and all other content/review guards. Default final-release checks still require listening review. No completion claimed.
+- Next action: verify successful Pages deployment, public index link, all images, full audio and paragraph playback; record live evidence, then complete human listening review. Existing sources and media reused; no paid generation.
