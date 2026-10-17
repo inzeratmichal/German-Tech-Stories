@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | blocked | 2026-10-17 media and homepage checkpoint | — | — |
+| 01 | Die Nachricht um 03:17 | in_progress | 2026-10-17 media and homepage checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -73,8 +73,8 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 Production started after reading the live roadmap and tracker and the attached guide.
 
 - **Book number/title:** 01 — Die Nachricht um 03:17.
-- **Status:** blocked
-- **Stage:** All content/media and 18-page print edition generated and checked; final human listening review pending. Homepage separately published and verified.
+- **Status:** in_progress
+- **Stage:** User-requested reader redesign: paragraph audio controls and five inline story scenes with four German labels embedded in each image. Preserve existing narration and old artwork as archive.
 - **Last updated:** 2026-10-17
 - **Working branch/commit:** main; media commit c043ed23976643435840960b8c804d132cc3968e; homepage commit f6f6f1500614c1bc3f9c76843923a673baca4bfb.
 - **Book directory and manuscript:** production/01-die-nachricht-um-0317/; original 2,926-word manuscript and all 46 translation pairs preserved. Complete local reader at .preview/site/books/01-die-nachricht-um-0317/index.html; preview server http://127.0.0.1:8765/books/01-die-nachricht-um-0317/ verified HTTP 200 after restarting outside sandbox.
