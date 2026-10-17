@@ -1,4 +1,5 @@
 .preview/
+dist/
 node_modules/
 *.log
 production/*/artwork/ch*.png

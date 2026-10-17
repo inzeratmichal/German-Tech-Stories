@@ -15,7 +15,7 @@ Tracker prepared: **2026-10-17**
 
 ## Next action
 
-**Resume Book 01 — Die Nachricht um 03:17. Resolve exact ElevenLabs MP3 format control; finish artwork/audio and final checks before publication.**
+**Book 01 media and reader are ready for human listening review. Homepage is live. Review the full Lola recording, then publish the book through the guarded existing Pages workflow.**
 
 If the audit confirms there is no existing work, begin **Book 01 — Die Nachricht um 03:17**. Reuse existing text, illustrations, and audio wherever suitable. Do not restart completed work or duplicate paid generations.
 
@@ -37,7 +37,7 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 
 | No. | Book | Status | Evidence | Completed date | Verified live URL |
 |---|---|---|---|---|---|
-| 01 | Die Nachricht um 03:17 | in_progress | 2026-10-17 draft checkpoint | — | — |
+| 01 | Die Nachricht um 03:17 | blocked | 2026-10-17 media and homepage checkpoint | — | — |
 | 02 | Elf Minuten zu früh | unverified | — | — | — |
 | 03 | Der Schlüssel im Regen | unverified | — | — | — |
 | 04 | Das Haus ohne Verbindung | unverified | — | — | — |
@@ -73,19 +73,19 @@ Use the Evidence column to link to an existing checkpoint, supporting repository
 Production started after reading the live roadmap and tracker and the attached guide.
 
 - **Book number/title:** 01 — Die Nachricht um 03:17.
-- **Status:** in_progress
-- **Stage:** All artwork and full Lola narration generated; targeted image corrections reviewed. Assembling audio and completing browser/print checks; final listening review unavailable to agent.
+- **Status:** blocked
+- **Stage:** All content/media and 18-page print edition generated and checked; final human listening review pending. Homepage separately published and verified.
 - **Last updated:** 2026-10-17
-- **Working branch/commit:** main; source checkpoint 61be14629368d02234ea6217413dc19683568aad.
-- **Book directory and manuscript:** production/01-die-nachricht-um-0317/manuscript.json (single bilingual source); manuscript.de.md; learning.json; narration.txt. Local preview: .preview/site/books/01-die-nachricht-um-0317/index.html.
-- **Illustration paths and generation identifiers:** artwork/cover-source.png: saved/visually inspected 1280×720 source; final 2:3 adaptation pending. ElevenLabs gpt-image-2 flow TRZ0PRZjlFUzTOcoeH9A, node EXnUpAhGpus0KGZnp2o6, session gUPE3Ci7Jv5nEBKY0Jya, generation tstTKemwJJfejGafFCsk; one variation. All 20 vocabulary scene briefs/alt texts ready in learning.json; illustrations not generated.
-- **Audio passages/final asset and generation identifiers:** audio/story.mp3 assembled (1294.81 seconds, 20,716,979 bytes); five source passages preserved locally. Lola - Immersive Storytelling voice Ny7r2ffG0v2p3DYyFvhb, eleven_v4, mp3_44100_128. IDs/settings in audio-jobs.json, audio-run.json and audio/manifest.json. All five returned transcripts match complete passage scripts; objective decoding shows no clipping and less than 0.8dB active RMS spread. Not listened to by agent.
-- **Deployment URL/run:** None. No publication attempted; draft preview ignored by Git. Main had no site files or workflow at audit; expected Pages URL inaccessible through web tool, so current hosting state remains unverified.
-- **Completed work:** 2,926 German story words, five chapters, 46 paragraph translation pairs; standalone cooling fault/local maintenance path resolved without later-series revelations. Exactly 20 vocabulary entries, three multiple-choice and two written questions/model answers. Shared Falkenbrück Reader static template and build, spoiler-free library draft, narration source, production plan, continuity.md, and review records saved.
-- **Pending work:** 20 finished vocabulary illustrations; final portrait cover adaptation; exact-format narration test and complete reviewed audiobook; final whole-page/media, true 200% zoom, keyboard traversal and A4 pagination checks; inspect/configure Pages workflow, publish and verify live.
-- **Checks actually performed and evidence:** checks.json, browser-checks.json and build-report.json: story/translation self-edit; vocabulary/chapter and question review; 320/390/768/1280px library and nested reader have no horizontal overflow, present images load, 46 translations start closed and toggle independently by keyboard, hidden answers reveal, Escape closes contents, anchors/IDs valid, no-JS reading works. Print CSS hides English/answers/toolbar; actual pagination pending. 390/1280px hero screenshots and cover source visually inspected. Release build correctly refuses missing illustrations. No audio-speed/listening or live verification claimed.
-- **Blocker:** Output-format concern resolved: official API default confirmed and actual test/all five passages verified MP3 44100 Hz / 128 kbps. Agent runtime cannot accept audio input for listening; human review of complete assembled recording remains required before publication.
-- **Exact next action:** Obtain a supported ElevenLabs plugin control or documented guarantee for mp3_44100_128 with eleven_v4 and voice Ny7r2ffG0v2p3DYyFvhb; then create/review the representative audio test. Reuse saved cover source/job, finish portrait adaptation and 20 4:3 cards using model schema settings. Follow production README resume order. Never regenerate existing work merely to resume.
+- **Working branch/commit:** main; media commit c043ed23976643435840960b8c804d132cc3968e; homepage commit f6f6f1500614c1bc3f9c76843923a673baca4bfb.
+- **Book directory and manuscript:** production/01-die-nachricht-um-0317/; original 2,926-word manuscript and all 46 translation pairs preserved. Complete local reader at .preview/site/books/01-die-nachricht-um-0317/index.html; preview server http://127.0.0.1:8765/books/01-die-nachricht-um-0317/ verified HTTP 200 after restarting outside sandbox.
+- **Illustration paths and generation identifiers:** artwork/cover.webp: final 1024×1536 portrait, generation LiIHzmYUY7J5QvNyUYBi. All 20 1024×768 vocabulary WebPs generated, optimized and visually inspected. Two targeted corrections reviewed (gemeinsam and vorsichtig). Full nodes/sessions/generation IDs/settings/hashes in artwork-jobs.json, generation-runs.json, artwork-repairs.json and media.json. Original source/job preserved.
+- **Audio passages/final asset and generation identifiers:** audio/story.mp3: 1294.811 seconds (21:35), 20,716,979 bytes, SHA256 0bfe96ff775203ec8392cea7f0410b05df9ed69894d3a3a88adf763c2df776c5. Lola - Immersive Storytelling / Ny7r2ffG0v2p3DYyFvhb / eleven_v4 / mp3_44100_128. Five original passages generated; MP3 format scanned, transcripts matched, browser decoding shows no clipping and 0.77 dB active RMS spread. Speech frames preserved; ~1.04-second chapter pauses. IDs in audio-run.json, audio-jobs.json and audio/manifest.json. Agent has not listened; user confirmed continued Lola voice use, saved in series-settings.json.
+- **Deployment URL/run:** Homepage https://inzeratmichal.github.io/German-Tech-Stories/index.html is live. Existing automatic main-root Pages workflow, successful run 39017661661 for f6f6f1500614c1bc3f9c76843923a673baca4bfb. HTTP 200 verified for / and /index.html and cover; production plan 404. Root index.html fixed missing homepage; book route is not published or linked.
+- **Completed work:** Full story/translations/questions/vocabulary retained; all 20 vocabulary illustrations and separate portrait cover complete. Full German audiobook with title/introduction/headings assembled and saved. Responsive reader/library draft and final playback controls checked. Reviewed 18-page A4 PDF at output/pdf/die-nachricht-um-0317.pdf; 46 German paragraphs preserved, English/answers hidden. All media, metadata and durable Lola settings saved to repository. Public series homepage restored and verified.
+- **Pending work:** Human listening review of the entire assembled recording for pronunciation, performance and chapter joins. Repair only any identified passage if necessary. Then run guarded publish helper, commit the complete reader to main, verify live book/assets/interactions, update continuity from draft to published and mark completion. No remaining generation work unless review identifies a defect.
+- **Checks actually performed and evidence:** checks.json, final-browser-checks.json, audio/technical-analysis.json, audio/completeness.json and build-report.json. All 21 images load at 320/390/768/1280px with no horizontal overflow; independent keyboard translations, answers, Escape/menu, no-JS reading, anchors/IDs pass. Player loads 1294.811 seconds, plays/seeks at start/all joins/end, rate selector changes actual rate to 1.25; no autoplay. All 20 artworks/portrait reviewed; 2 fixes reviewed. A4 rendered to 18 page PNGs and checked; all 46 German paragraphs verified present, English/answers absent. Release guard correctly refuses only audio_listening_review. Live homepage and cover HTTP 200 confirmed; no live book verification claimed.
+- **Blocker:** Final listening review only: this agent's audio input explicitly reports unsupported, so it cannot assess natural delivery or pronunciation by ear. Exact format is RESOLVED: official API default confirmed from user-supplied reference and actual test/all passages/final MP3 verified at 44100Hz/128kbps. Do not reintroduce the old format blocker or regenerate good media.
+- **Exact next action:** User listens to the complete local reader recording (or audio/story.mp3) and reports any defects or confirms a completed listening review. Record actual evidence in checks.json/audio manifest. Then node tools/publish.cjs must pass all release checks and copy complete book/assets/library into main root; commit, verify automatic Pages deployment/live book, and save completed status. Keep Lola settings unchanged across future books.
 
 ### Required audio configuration
 
@@ -105,14 +105,14 @@ Tick a box only after the corresponding work and verification are complete. Reco
 - [x] Current `books.md`, preceding story context, and continuity reviewed.
 - [x] Complete German story edited for plot, continuity, grammar, and mostly B1 language with selected B2 vocabulary.
 - [x] Every story paragraph has a matching hidden English translation; individual toggles work.
-- [ ] Every chapter has 3–5 finished vocabulary illustrations; exactly 20 distinct entries are covered overall.
-- [ ] Artwork, German labels, articles, and alternative text visually checked.
+- [x] Every chapter has 3–5 finished vocabulary illustrations; exactly 20 distinct entries are covered overall.
+- [x] Artwork, German labels, articles, and alternative text visually checked.
 - [x] Final vocabulary list contains all 20 entries and their English meanings.
 - [x] Three multiple-choice and two written-answer questions checked; hidden German answers work.
-- [ ] Complete audio generated with the required ElevenLabs configuration.
+- [x] Complete audio generated with the required ElevenLabs configuration.
 - [ ] Audio completeness, pronunciation, performance, passage joins, and playback assessed.
-- [ ] Responsive layout, keyboard controls, chapter navigation, image paths, and playback-speed controls checked.
-- [ ] Print preview checked; English and interface controls excluded by default.
+- [x] Responsive layout, keyboard controls, chapter navigation, image paths, and playback-speed controls checked.
+- [x] Print preview checked; English and interface controls excluded by default.
 - [ ] Deployment succeeded; live page, images, audio, and interactions verified.
 - [ ] Existing books remain accessible after shared-site changes.
 - [ ] Continuity updated and completion evidence prepared.
@@ -134,6 +134,16 @@ For each later checkpoint or completion, append a concise record containing the 
 - **Evidence:** 2,926 German words, five chapters, 46 translation pairs, 20 entries, five questions. Edge draft checks at four widths, native disclosures/no-JS, anchors and print hiding pass; final illustration/audio/A4 checks remain open. One cover source generated and visually reviewed; landscape-to-portrait adaptation pending. Twenty vocabulary illustrations not generated.
 - **Blocker/next:** Exact ElevenLabs output-format control unavailable. Resolve mp3_44100_128 before the narration test; preserve required voice/model. Follow production README for remaining media and publication. No paid audio or duplicate cover generation.
 - **Access note:** Command-line push lacked credentials; saved all 18 source/artwork files through the connected GitHub plugin instead. No credentials or signed media links committed. Local Der letzte Ping and synced sources remain untouched.
+
+### 2026-10-17 — Book 01 media and homepage checkpoint
+
+- **Status:** blocked only on full human listening review; no book completion or book publication claimed.
+- **Generated:** 20 vocabulary illustrations plus 2 targeted visual corrections; separate 2:3 portrait cover; Lola test plus five full narration passages, assembled to one 21:35 MP3. All generation IDs retained. User confirmed Lola for future books; fixed settings in series-settings.json. Exact format verified empirically after official API default was supplied.
+- **Saved:** media source checkpoint c043ed23976643435840960b8c804d132cc3968e; finished WebPs, full MP3, 18-page German A4 PDF, tests, manifests and metadata in repository. Original PNGs and individual passages preserved locally; no duplicate paid generation on resumption.
+- **Checks:** final browser controls and four responsive widths pass, actual playback/seek/speed pass, 21 images load, no-JS text/disclosures work. Print rendered and checked, all 46 German paragraphs present, English/answers hidden. Agent audio input unavailable; objective analysis/transcription is not claimed as listening.
+- **Homepage fix:** user reported missing index.html. Added real root homepage and cover, excluded production sources through existing Jekyll Pages configuration, confirmed existing automatic main-root publishing. Deployment 39017661661 succeeded; live root/index/cover HTTP 200, private production plan route 404. Full book remains upcoming.
+- **Review route:** local http://127.0.0.1:8765/books/01-die-nachricht-um-0317/ . First sandboxed server timed out for user; restarted outside sandbox and verified HTTP 200 with all 21 images/full audio. Human review requested before guarded publication.
+- **Next:** finish listening review, repair only identified defects, run tools/publish.cjs, verify public book and record completion.
 
 ## Update rules
 

@@ -45,7 +45,7 @@
   },
   "publication_gate": "All media files are now present. Release must still refuse while audio_listening_review is false. No publication attempted.",
   "cover_review": "Final 1024x1536 portrait artwork adapted from existing source and visually reviewed.",
-  "live_verification": "Not performed; web tool could not access expected Pages URL. No deployment attempted.",
+  "live_verification": "Homepage root and index.html return HTTP 200; cover returns 200 with expected hash. Production plan returns 404. Homepage deployment run 39017661661 succeeded for commit f6f6f1500614c1bc3f9c76843923a673baca4bfb. Book itself remains unpublished, pending listening review.",
   "final_art_review": "All 20 1024x768 cards inspected in chapter contact sheets; two inaccurate details repaired and inspected individually. German labels remain accessible HTML outside pixels; inflected vocabulary occurrences retained.",
   "audio_review": {
     "format": "MP3 44100 Hz / 128 kbps confirmed for test, five passages and final assembly",
@@ -63,5 +63,9 @@
     "answers_hidden": true,
     "all_46_german_paragraphs_present": true,
     "review": "Rendered all pages; contact-sheet layout inspected and representative story, continuation, vocabulary infographic and questions pages inspected at 1100px. No clipped content. Final 18-page edition uses 12pt/1.65 story text and separate chapter picture sections."
+  },
+  "local_preview": {
+    "url": "http://127.0.0.1:8765/books/01-die-nachricht-um-0317/",
+    "server": "Outside-sandbox local static preview; verified HTTP 200 with 21 images and full MP3 after sandboxed server proved unreachable."
   }
 }

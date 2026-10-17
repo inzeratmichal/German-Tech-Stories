@@ -20,14 +20,14 @@ Read the repository `books.md`, `progress.md`, and the attached `GERMAN_TECH_STO
 
 From the repository directory, run `npm run preview:build`. The complete unpublished reading preview is `.preview/site/books/01-die-nachricht-um-0317/index.html`; `.preview` is ignored by Git. All 21 images and the full MP3 are now present. The book is awaiting the final listening check and publication.
 
-`npm run release:build` refuses publication output until all 20 illustrations, the final cover, the full recording and required review flags are present. No hosting workflow is configured yet. When ready, inspect the actual GitHub Pages settings and deploy only `dist`, never `production` or the draft preview. Preserve any existing live deployment discovered then.
+`npm run release:build` refuses publication output until all 20 illustrations, the final cover, the full recording and required review flags are present. Existing GitHub Pages publishing automatically deploys the `main` branch root. The live root `index.html` now shows the series and the upcoming book. `_config.yml` excludes production sources and intermediate outputs. After the final listening review, `node tools/publish.cjs` runs the release guard, then copies only complete public output into the repository root while preserving unrelated files and older books. Commit and verify the automatic deployment.
 
 ## Resume order
 
 1. Obtain a human listening review of `audio/story.mp3`: natural German delivery, names, times, technical terms, clean endings and chapter joins. The agent's audio-input tool explicitly reported unsupported input. No listening review has been claimed. User confirmed the Lola voice and required its future reuse.
 2. Repair only any specifically identified weak passage; preserve all good generations. Update `checks.json` and the manifest only with actual review evidence. Required settings remain fixed in `series-settings.json`.
 3. Rebuild only as needed after a change. Current final-browser checks cover four widths, loaded images, no-JavaScript reading, independent translations, hidden answers, actual speed changes, play/seeking at all boundaries, and print. The 18-page A4 PDF is rendered and checked; all 46 German paragraphs remain present.
-4. Inspect/configure the repository's actual Pages workflow, publish only the complete reviewed book, verify live page/assets/controls, then update repository progress to completed. No deployment has been attempted.
+4. Run `node tools/publish.cjs`, publish only the complete reviewed book, verify live page/assets/controls, then update repository progress to completed. The homepage is already published and verified at https://inzeratmichal.github.io/German-Tech-Stories/index.html; the book itself remains unpublished.
 
 ## Resolved format concern
 

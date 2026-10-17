@@ -1,6 +1,7 @@
 # Existing GitHub Pages branch publishing builds this repository root.
 # Keep production sources and unfinished reader material out of the public site.
 exclude:
+  - dist
   - production
   - template
   - tools
