@@ -183,3 +183,9 @@ For each later checkpoint or completion, append a concise record containing the 
 - Coordination permits one active stream, including the full story; shares volume/mute and playback speed. Native players work without JavaScript. Print hides paragraph players. Guide and series settings updated for future books.
 - Local checks pass for all 46 clip loads, playback and durations; pause/resume, single stream, mute/volume, seeking, 1.5x speed, natural paragraph ending, stop/reset, full-story switching, no-JS controls, print hiding and four responsive widths. Desktop/mobile screenshots inspected. Evidence: native-controls-checks.json.
 - Next: deploy this reader update, verify live native players, and retain outstanding human narration listening review. Book completion remains unclaimed.
+
+### 2026-10-17 — Native audio controls live verification
+
+- Pages deployment 39020935881 succeeded for c2bd0132feda62ba2a99723288ecff4481e50bfe. All 46 native paragraph players verified on the public reader.
+- Every clip loads, plays, and reports its paragraph duration correctly. Progress seeking, play/pause/resume, shared volume/mute and 1.5x speed, Stopp/reset, natural ending, and one active player including full-story playback pass. Native controls remain available without JavaScript; print hiding and 320/390/768/1280px layouts pass. Evidence: production/01-die-nachricht-um-0317/live-native-controls-checks.json.
+- The public reader and local preview are updated. Guide and series settings preserve this native-player design for future books. Human narration listening remains outstanding; book completion status unchanged.

@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-17",
+  "url": "https://inzeratmichal.github.io/German-Tech-Stories/books/01-die-nachricht-um-0317/index.html",
+  "native_players": 46,
+  "clips": [
+    {
+      "id": "intro",
+      "duration": 24.711813,
+      "playing": true,
+      "time": 0,
+      "controls": true
+    },
+    {
+      "id": "ch01-p01",
+      "duration": 27.297938,
+      "playing": true,
+      "time": 0,
+      "controls": true
+    },
+    {
+      "id": "ch01-p02",
+      "duration": 27.951,
+      "playing": true,
+      "time": 0.006672,
+      "controls": true
+    },
+    {
+      "id": "ch01-p03",
+      "duration": 28.656313,
+      "playing": true,
+      "time": 0.000941,
+      "controls": true
+    },
+    {
+      "id": "ch01-p04",
+      "duration": 27.245688,
+      "playing": true,
+      "time": 0.005933,
+      "controls": true
+    },
+    {
+      "id": "ch01-p05",
+      "duration": 24.346063,
+      "playing": true,
+      "time": 0.002656,
+      "controls": true
+    },
+    {
+      "id": "ch01-p06",
+      "duration": 24.346063,
+      "playing": true,
+      "time": 0.001196,
+      "controls": true
+    },
+    {
+      "id": "ch01-p07",
+      "duration": 29.544438,
+      "playing": true,
+      "time": 0.013612,
+      "controls": true
+    },
+    {
+      "id": "ch01-p08",
+      "duration": 24.659563,
+      "playing": true,
+      "time": 0.001661,
+      "controls": true
+    },
+    {
+      "id": "ch01-p09",
+      "duration": 26.148563,
+      "playing": true,
+      "time": 0.004492,
+      "controls": true
+    },
+    {
+      "id": "ch02-p01",
+      "duration": 24.424438,
+      "playing": true,
+      "time": 0.018986,
+      "controls": true
+    },
+    {
+      "id": "ch02-p02",
+      "duration": 25.469375,
+      "playing": true,
+      "time": 0.015941,
+      "controls": true
+    },
+    {
+      "id": "ch02-p03",
+      "duration": 25.155875,
+      "playing": true,
+      "time": 0.006976,
+      "controls": true
+    },
+    {
+      "id": "ch02-p04",
+      "duration": 27.58525,
+      "playing": true,
+      "time": 0.003109,
+      "controls": true
+    },
+    {
+      "id": "ch02-p05",
+      "duration": 29.17875,
+      "playing": true,
+      "time": 0.010634,
+      "controls": true
+    },
+    {
+      "id": "ch02-p06",
+      "duration": 29.544438,
+      "playing": true,
+      "time": 0.018605,
+      "controls": true
+    },
+    {
+      "id": "ch02-p07",
+      "duration": 25.521625,
+      "playing": true,
+      "time": 0.012127,
+      "controls": true
+    },
+    {
+      "id": "ch02-p08",
+      "duration": 26.3575,
+      "playing": true,
+      "time": 0.013759,
+      "controls": true
+    },
+    {
+      "id": "ch02-p09",
+      "duration": 27.506938,
+      "playing": true,
+      "time": 0.011702,
+      "controls": true
+    },
+    {
+      "id": "ch03-p01",
+      "duration": 24.346063,
+      "playing": true,
+      "time": 0.012659,
+      "controls": true
+    },
+    {
+      "id": "ch03-p02",
+      "duration": 28.212188,
+      "playing": true,
+      "time": 0.016292,
+      "controls": true
+    },
+    {
+      "id": "ch03-p03",
+      "duration": 29.44,
+      "playing": true,
+      "time": 0.003153,
+      "controls": true
+    },
+    {
+      "id": "ch03-p04",
+      "duration": 27.742,
+      "playing": true,
+      "time": 0.019708,
+      "controls": true
+    },
+    {
+      "id": "ch03-p05",
+      "duration": 26.044063,
+      "playing": true,
+      "time": 0.026955,
+      "controls": true
+    },
+    {
+      "id": "ch03-p06",
+      "duration": 25.730563,
+      "playing": true,
+      "time": 0.007465,
+      "controls": true
+    },
+    {
+      "id": "ch03-p07",
+      "duration": 23.928125,
+      "playing": true,
+      "time": 0.00934,
+      "controls": true
+    },
+    {
+      "id": "ch03-p08",
+      "duration": 26.82775,
+      "playing": true,
+      "time": 0.000729,
+      "controls": true
+    },
+    {
+      "id": "ch03-p09",
+      "duration": 28.86525,
+      "playing": true,
+      "time": 0.006713,
+      "controls": true
+    },
+    {
+      "id": "ch04-p01",
+      "duration": 30.171375,
+      "playing": true,
+      "time": 0.00057,
+      "controls": true
+    },
+    {
+      "id": "ch04-p02",
+      "duration": 30.432625,
+      "playing": true,
+      "time": 0.016043,
+      "controls": true
+    },
+    {
+      "id": "ch04-p03",
+      "duration": 28.368938,
+      "playing": true,
+      "time": 0.000728,
+      "controls": true
+    },
+    {
+      "id": "ch04-p04",
+      "duration": 28.0555,
+      "playing": true,
+      "time": 0.021879,
+      "controls": true
+    },
+    {
+      "id": "ch04-p05",
+      "duration": 26.044063,
+      "playing": true,
+      "time": 0.007586,
+      "controls": true
+    },
+    {
+      "id": "ch04-p06",
+      "duration": 27.8465,
+      "playing": true,
+      "time": 0.019004,
+      "controls": true
+    },
+    {
+      "id": "ch04-p07",
+      "duration": 29.596688,
+      "playing": true,
+      "time": 0.012135,
+      "controls": true
+    },
+    {
+      "id": "ch04-p08",
+      "duration": 31.059563,
+      "playing": true,
+      "time": 0.001936,
+      "controls": true
+    },
+    {
+      "id": "ch04-p09",
+      "duration": 27.663625,
+      "playing": true,
+      "time": 0.018504,
+      "controls": true
+    },
+    {
+      "id": "ch05-p01",
+      "duration": 25.33875,
+      "playing": true,
+      "time": 0.010772,
+      "controls": true
+    },
+    {
+      "id": "ch05-p02",
+      "duration": 29.544438,
+      "playing": true,
+      "time": 0.011774,
+      "controls": true
+    },
+    {
+      "id": "ch05-p03",
+      "duration": 34.795063,
+      "playing": true,
+      "time": 0.014176,
+      "controls": true
+    },
+    {
+      "id": "ch05-p04",
+      "duration": 29.936313,
+      "playing": true,
+      "time": 0.008821,
+      "controls": true
+    },
+    {
+      "id": "ch05-p05",
+      "duration": 26.488125,
+      "playing": true,
+      "time": 0.000515,
+      "controls": true
+    },
+    {
+      "id": "ch05-p06",
+      "duration": 25.573875,
+      "playing": true,
+      "time": 0.015801,
+      "controls": true
+    },
+    {
+      "id": "ch05-p07",
+      "duration": 28.577938,
+      "playing": true,
+      "time": 0.016308,
+      "controls": true
+    },
+    {
+      "id": "ch05-p08",
+      "duration": 26.749375,
+      "playing": true,
+      "time": 0.017819,
+      "controls": true
+    },
+    {
+      "id": "ch05-p09",
+      "duration": 30.380375,
+      "playing": true,
+      "time": 0.004581,
+      "controls": true
+    }
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    }
+  ],
+  "pause_resume": true,
+  "single_stream": true,
+  "volume_mute": true,
+  "speed": true,
+  "stop_reset": true,
+  "seek": true,
+  "ends_at_paragraph": true,
+  "full_player_exclusive": true,
+  "print_hidden": true,
+  "no_js_native_players": true
+}

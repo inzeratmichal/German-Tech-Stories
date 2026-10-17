@@ -17,5 +17,5 @@ for r in ranges['ranges']:
  filename=r['id']+'.mp3'; (out/filename).write_bytes(data)
  clips.append({'id':r['id'],'filename':filename,'source_start':r['start'],'source_end':r['end'],'duration_seconds':(end-start)/44100,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
 manifest={'source':'story.mp3','source_sha256':hashlib.sha256((root/'story.mp3').read_bytes()).hexdigest(),'method':'Decoded existing narration once; extracted exact paragraph PCM ranges and encoded standalone 44100 Hz mono 128 kbps MP3 clips for native players. No new TTS.','voice_id':ranges['voice_id'],'model_id':ranges['model_id'],'clips':clips}
-(root/'paragraph-clips.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+(root/'paragraph-clips.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8',newline='\n')
 print({'clips':len(clips),'bytes':sum(c['bytes'] for c in clips)})

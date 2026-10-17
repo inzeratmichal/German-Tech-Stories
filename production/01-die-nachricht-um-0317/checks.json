@@ -47,7 +47,7 @@
   },
   "publication_gate": "Published as review edition at explicit user request; default completion guard still requires audio_listening_review.",
   "cover_review": "Final 1024x1536 portrait artwork adapted from existing source and visually reviewed.",
-  "live_verification": "Pages run 39020060683 succeeded for 7d49873e0904a6024c65b48f39c3704e6a86edfd. Public index link, six images, CSS/JS, complete MP3, paragraph controls and responsive layouts verified; see live-checks.json. Human listening remains outstanding.",
+  "live_verification": "Pages run 39020060683 succeeded for 7d49873e0904a6024c65b48f39c3704e6a86edfd. Public index link, six images, CSS/JS, complete MP3, paragraph controls and responsive layouts verified; see live-checks.json. Human listening remains outstanding. Native paragraph players deployed in c2bd0132feda62ba2a99723288ecff4481e50bfe, successful Pages run 39020935881; all 46 players and their controls pass live-native-controls-checks.json.",
   "final_art_review": "Five actual inline scenes inspected individually. Four embedded German labels each, twenty distinct target words. Corrected clock, cooling plan, Ruth identity and times. Original twenty cards retained as archive. Mobile 390px and desktop 1280px screenshots inspected; image links open full resolution.",
   "audio_review": {
     "format": "MP3 44100 Hz / 128 kbps confirmed for test, five passages and final assembly",
