@@ -62,7 +62,7 @@ let pairId=0;
 const pair = (p,rangeId=null) => {
   const id=`en-${++pairId}`,range=rangeId?paragraphRanges.get(rangeId):null;
   if(rangeId) assert(range,'Missing paragraph audio range '+rangeId);
-  const audioPlayer=range&&hasAudio?`<div class="paragraph-audio"><audio class="paragraph-player" controls preload="none" aria-label="${rangeId==='intro'?'Einleitung anhören':`Kapitel ${range.chapter}, Absatz ${range.paragraph} anhören`}" src="assets/paragraphs/${rangeId}.mp3">Ihr Browser unterstützt diesen Audioplayer nicht.</audio><button type="button" class="audio-stop" aria-label="Wiedergabe dieses Absatzes stoppen und zurücksetzen" hidden>Stopp</button></div>`:'';
+  const audioPlayer=range&&hasAudio?`<div class="paragraph-audio"><audio class="paragraph-player" controls preload="none" aria-label="${rangeId==='intro'?'Einleitung anhören':`Kapitel ${range.chapter}, Absatz ${range.paragraph} anhören`}" src="assets/paragraphs/${rangeId}.mp3">Ihr Browser unterstützt diesen Audioplayer nicht.</audio></div>`:'';
   return `<div class="paragraph"${rangeId?` id="${rangeId}"`:''}><p>${e(p.de)}</p>${audioPlayer}<details class="translation" id="${id}"><summary><span class="show">Show English</span><span class="hide">Hide English</span></summary><p lang="en">${e(p.en)}</p></details></div>`;
 };
 const contents=story.chapters.map((c,i)=>`<a href="#chapter-${i+1}">${i+1}. ${e(c.title)}</a>`).join('')+'<a href="#vocabulary">Wortschatz</a><a href="#questions">Fragen</a><a href="#audio">Anhören</a>';

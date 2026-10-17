@@ -189,3 +189,9 @@ For each later checkpoint or completion, append a concise record containing the 
 - Pages deployment 39020935881 succeeded for c2bd0132feda62ba2a99723288ecff4481e50bfe. All 46 native paragraph players verified on the public reader.
 - Every clip loads, plays, and reports its paragraph duration correctly. Progress seeking, play/pause/resume, shared volume/mute and 1.5x speed, Stopp/reset, natural ending, and one active player including full-story playback pass. Native controls remain available without JavaScript; print hiding and 320/390/768/1280px layouts pass. Evidence: production/01-die-nachricht-um-0317/live-native-controls-checks.json.
 - The public reader and local preview are updated. Guide and series settings preserve this native-player design for future books. Human narration listening remains outstanding; book completion status unchanged.
+
+### 2026-10-17 — Remove extra Stopp buttons
+
+- User requested removing the separate Stopp button beside each paragraph audio player. Removed markup, related JavaScript and styling; native play/pause, progress/seek and volume controls remain.
+- Updated repository guide and series settings to require only built-in audio controls, with no extra stop/reset button. Existing audio clips reused unchanged.
+- Next: deploy and verify zero extra buttons and all 46 native paragraph players on the live page. Prior listening-review status remains unchanged.

@@ -22,11 +22,6 @@
         if(other.muted !== sharedMuted) other.muted = sharedMuted;
       });
     });
-    const stop = player.closest('.paragraph-audio')?.querySelector('.audio-stop');
-    if(stop){
-      stop.hidden = false;
-      stop.addEventListener('click', () => { player.pause(); player.currentTime = 0; });
-    }
   });
   speed?.addEventListener('change', event => {
     players.forEach(player => { player.playbackRate = Number(event.target.value); });
